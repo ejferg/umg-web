@@ -1,22 +1,29 @@
 {
-    "author": "Earl Ferguson <earl@ullisen.com> (http://ullisenmedia.com)",
-    "name": "umb.web",
-    "description": "Ullsien Media Group Website",
-    "version": "0.1.0-3",
-    "homepage": "http://ullisenmedia.com",
-    "subdomain": "umg.web",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ullisenmedia/umg.git"
-    },
-    "dependencies": {
-        "express": "3.0.x"
-    },
-    "engines": {
-        "node": "0.8.x"
-    },
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    }
+  "author": "Earl Ferguson <earl@ullisen.com> (http://ullisenmedia.com)",
+  "name": "umb.web",
+  "description": "Ullisen Media Group Website",
+  "version": "0.1.0",
+  "homepage": "http://ullisenmedia.com",
+  "subdomain": "umg.web",
+  "domains": [
+    "ullisenmedia.com",
+    "www.ullisenmedia.com",
+    "ullisen.com",
+    "www.ullisen.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ullisenmedia/umg.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*"
+  },
+  "engines": {
+    "node": "0.8.x"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
 }
