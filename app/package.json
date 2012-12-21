@@ -2,7 +2,7 @@
   "author": "Earl Ferguson <earl@ullisen.com> (http://ullisenmedia.com)",
   "name": "umb.web",
   "description": "Ullisen Media Group Website",
-  "version": "0.1.0",
+  "version": "0.1.0-8",
   "homepage": "http://ullisenmedia.com",
   "subdomain": "umg.web",
   "domains": [
