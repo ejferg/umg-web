@@ -1,154 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/contact_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/facebook_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/fav_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/google-plus_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/index_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/info_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/modal_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon_200.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon_80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/splash_no_date.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/twitter_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/audio/ullisen.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/audio/ullisen.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/continuation/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/mount-route/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/mount-route/bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/basicauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp/blobstore-handlers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/blobstore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/blobstore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/capabilities.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/channel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/continuation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/datastore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/blobstore/downloadapp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/datastore/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/errors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/etag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/mount-route/foo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/forms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/gzip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/helpers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/images.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/ejferg/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/helpers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/basicauth/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/continuation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/cookies/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/error/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/etag/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/gzip/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/method/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/mount/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/notfound/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/params/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/profiler/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/render/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/requestlog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/route/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/session/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/static/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/middleware/upload/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/stick/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/controllers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/controllers/web/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/index_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/config/jetty.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/config/jetty.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/static/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/js/jquery.localscroll-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/js/jquery.scrollorama.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/static/jsdoc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/static/jsdoc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/config/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/logging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/logging.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp/mail-handlers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/mail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/memcache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/method.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/model.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/mount.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/namespace-manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/jsgi/namespace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/notfound.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/notfound.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/oauth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/public/stylesheets/page.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/examples/skeleton/templates/page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/params.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/profiler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/quota.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/remote-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/render.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/requestlog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/runtime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/tools/development/sdk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/session.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/static.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/stats.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/stick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/test/stick_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/docs/api/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/taskqueue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/tools/development/testing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/datastore/types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/update-docs.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/stick/lib/middleware/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/blobstore/uploadapp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/urlfetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/users.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/db/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/ejferg/vCard.vcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/ext/webapp/xmpp-handlers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/war/WEB-INF/packages/appengine/lib/api/xmpp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.ejs" afterPath="$PROJECT_DIR$/app/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="" />
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,55 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
+      <file leaf-file-name="properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/evident-beacon-578/.gcloud/properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="28" selection-start="2202" selection-end="2202" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="6" selection-start="1559" selection-end="1559" vertical-scroll-proportion="-4.2" vertical-offset="300" max-vertical-offset="4470">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="2156" selection-end="12245" vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="5025">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.14580803" vertical-offset="0" max-vertical-offset="823">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
               <folding />
             </state>
           </provider>
@@ -315,91 +123,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="war" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="umg-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="evident-beacon-578" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -669,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="2156" selection-end="12245" vertical-scroll-proportion="-6.3" vertical-offset="0" max-vertical-offset="5025">
@@ -692,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1575">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9444444" vertical-offset="765" max-vertical-offset="1575">
           <folding />
         </state>
       </provider>
@@ -700,6 +417,27 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.14580803" vertical-offset="0" max-vertical-offset="823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="14" selection-start="459" selection-end="459" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evident-beacon-578/.gcloud/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evident-beacon-578/.gcloud/properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="823">
           <folding />
         </state>
       </provider>
