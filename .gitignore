@@ -1,0 +1,8 @@
+node_modules
+debug
+dist
+.tmp
+.idea/
+backup
+app/img
+app/lib

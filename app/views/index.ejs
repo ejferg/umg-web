@@ -249,6 +249,8 @@
                 $('#fav').animate({
                     "left": '-='+ offset + "px",
                     "opacity": 1.0
+                    $('.btn-index').click(function(){
+                        $.scrollTo('#index', 800);
                 }, 500);
             });
 
@@ -261,8 +263,6 @@
             $('#fav').mouseout(umg.onHideFav);
 
 
-            $('.btn-index').click(function(){
-                $.scrollTo('#index', 800);
             });
 
             $("#contact-form").validate({meta: "validate"});

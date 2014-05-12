@@ -1,0 +1,425 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic);
+
+address {
+    display: block;
+}
+
+
+audio{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+body{
+	margin: 0;
+	font-family: "Source Sans Pro";
+	font-weight: 400;
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+.hide{
+	display: none;
+}
+
+.close-container{
+	width: 100%;
+	text-align: right;
+	margin-right: 1000px;
+	position: fixed;
+}
+
+.close-btn{
+	display: block;
+	height: 80px;
+	widht: 80px;
+	font-size: 70px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 200;
+	margin-top: 10%;
+	margin-right: 10%;
+}
+
+input{
+	font-family: "Source Sans Pro";
+}
+
+#fb-dialog{
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: url('../images/modal_bg.png') repeat top left;
+}
+
+#fb-dialog .message{
+	position: relative;
+	width: 60%;
+	top: 300px;
+	left: 20%;
+}
+
+#fb-dialog p{
+	color: #fff;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+
+#nav{
+	width: 106px;
+	height: 32px;
+	position: fixed;
+	right: -75px;
+	top: 40%;
+	z-index: 200;
+	
+}
+
+#content{
+	width: 100%
+}
+
+#fav{
+	min-width: 300px;
+	height: 32px;
+	padding-left: 5px;;
+	position: absolute;
+	background-color: #000;
+	display: none;
+	opacity: 0,
+}
+
+#fav ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 6px;
+}
+
+#fav li{
+	display: block;
+	list-style-type: none;
+	float: left;
+}
+
+.pad{
+	padding-right: 15px;
+}
+
+.tw-share
+{
+	max-width: 95px;
+}
+
+
+#index .splash{
+   width: 250px;
+   height: 100px;
+   position: absolute;
+   left: 50%;
+   top: 50%; 
+   margin-left: -125px;
+   margin-top: -50px;
+}
+
+.email-us{
+   display: none;
+}
+
+.email-us a{
+	display: block;
+	width: 100%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.view{
+	width:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+#info{
+	top: 1000px;
+	height: 1900px;
+	left: 15%;
+}
+
+#info .meaning{
+	color: #fff;
+	max-width: 70%;
+	margin-top: 60px;
+}
+
+#info .meaning .first{
+	font-size: 48px;
+}
+
+#info .meaning .bold{
+	font-weight: 600;
+}
+
+#info h2{
+	color: #ff0099;
+	font-weight: 400;
+	text-decoration:underline
+}
+
+#info ul li{
+	list-style-type: none;
+}
+
+#info ul li p{
+	max-width: 40%;
+}
+
+#info ul li p{
+	margin-top: -20px;
+}
+
+#info .audio{
+	position: relative;
+	top: -350px;
+	left: 40%;
+}
+
+#info .audio a{
+	display: block;
+	widht: 300px;
+	height: 300px;
+	background: #000000 url('../images/sound_icon.png') no-repeat top left;
+}
+
+#info .hlight{
+	color: #ff0099;
+}
+
+#info .it-bold{
+	font-weight: bold;
+	font-style: italic;
+}
+
+#nav a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin-bottom: 1px;
+	background-color: #ff0099;
+}
+
+.btn-info{
+	background: #000000 url('../images/info_icon.png') no-repeat top left;
+
+}
+
+.btn-contact{
+	background: #000000 url('../images/contact_icon.png') no-repeat top left;
+	
+}
+
+.btn-fb{
+	background: #000000 url('../images/facebook_icon.png') no-repeat top left;
+
+}
+
+.btn-twitter{
+	background: #000000 url('../images/twitter_icon.png') no-repeat top left;
+	
+}
+
+.btn-gp{
+	background: #000000 url('../images/google-plus_icon.png') no-repeat top left;
+}
+
+.btn-fav{
+	background: #000000 url('../images/fav_icon.png') no-repeat top left;
+}
+
+.btn-index
+{
+	background: #000000 url('../images/index_icon.png') no-repeat top left;
+}
+
+#contact{
+	left: 25%;
+	top: 100px;
+	font-weight: 200;
+}
+
+#contact textArea{
+	width: 40%;
+}
+
+#contact textArea{
+	width: 40%;
+}
+
+.lrg-label{
+	font-size: 60px;
+	font-weight: 200;
+	color: #ff0099;
+}
+
+.ss-form-body{
+	color: #fff;
+	margin-top: 40px;
+}
+
+.ss-submit-container{
+	width: 40%;
+	margin-left: 75px;
+	text-align: right;
+}
+
+.ss-submit-btn{
+	font-size: 30px;
+	font-weight: 200;
+	border: 0px;
+	color: #fff;
+	background-color: #ff0099; 
+	cursor:pointer;
+}
+
+
+.ss-lrg-input{
+	height: 40px;
+	width: 25%;
+	/*min-width: 450px;*/
+	font-family: "Source Sans Pro";
+}
+
+.ss-indent{
+	padding-right: 20px;
+}
+
+.ss-response{
+	font-size: 24px;
+	position:relative;
+	left: -30px;
+	display: none;
+}
+
+#ss-message .label{
+	vertical-align: top;
+    display: inline-block;
+}
+
+.required{
+	color: #ff0099;
+	font-size: 25px;
+	font-weight: 200;
+}
+
+#response-frame{
+	display: none;
+}
+
+@media screen and (max-width: 960px)
+{
+	.lrg-label{
+		font-size: 40px;
+	}
+	
+	.ss-lrg-input{
+		height: 30px;
+	}
+	
+	#info .meaning .first{
+		font-size: 30px;
+	}
+	
+	#info h2{
+		font-size: 20px;
+	}
+	
+	#info .audio{
+		position: relative;
+		top: -350px;
+		left: 30%;
+	}
+	
+	#info .audio a{
+		widht: 200px;
+		height: 200px;
+		background: #000000 url('../images/sound_icon_200.png') no-repeat top left;
+	}
+	
+	#fb-dialog p{
+		font-size: 20px;
+	}
+}
+
+
+@media screen and (max-width: 480px)
+{
+	.lrg-label{
+		font-size: 30px;
+	}
+	
+	#contact, #info, #nav{
+		display: none;
+	}
+	
+	#index .splash{
+	   margin-top: -60px;
+	}
+
+	.email-us{
+	   width: 230px;
+	   height: auto;
+	   position: absolute;
+	   left: 50%;
+	   top: 50%; 
+	   margin-left: -125px;
+	   margin-top: 50px;
+	   text-align: center;
+	   display: inline;
+	}
+	
+	#fb-dialog{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		width: 100%;
+		height: 100%;
+		padding-left: 20px;
+		background: url('../images/modal_bg.png') repeat top left;
+	}
+
+	#fb-dialog .message div{
+		width: 100%;
+		text-align: center;
+	}
+	
+	#fb-dialog .message{
+		position: relative;
+		width: 90%;
+		top: 100px;
+		left: 0;
+	}
+	
+	#fb-dialog p{
+		color: #fff;
+		font-weight: 200;
+		font-size: 14px;
+	}
+
+	.close-btn{
+		display: block;
+		height: 80px;
+		widht: 80px;
+		font-size: 50px;
+		color: #fff;
+		text-decoration: none;
+		font-weight: 200;
+		margin-top: 10%;
+		margin-right: 10%;
+	}
+}
