@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/contact_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/facebook_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/fav_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/google-plus_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/index_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/info_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/modal_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon_200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/sound_icon_80.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/splash.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/splash_no_date.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/twitter_icon.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/social_logo.psd" afterPath="$PROJECT_DIR$/design/social_logo.psd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umg-web.iws" />
@@ -41,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="418" selection-end="418" vertical-scroll-proportion="0.41919807" vertical-offset="0" max-vertical-offset="915">
+            <state line="29" column="21" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -53,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="930">
+            <state line="44" column="28" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -63,6 +49,15 @@
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/images/logo.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="57" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.3244275" vertical-offset="0" max-vertical-offset="786">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -94,10 +89,10 @@
         <option value="$PROJECT_DIR$/war/WEB-INF/app.yaml" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app.yaml" />
-        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
         <option value="$PROJECT_DIR$/../../Sandbox/appengine-java-vm-hello/src/main/webapp/WEB-INF/appengine-web.xml" />
-        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
+        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
       </list>
     </option>
   </component>
@@ -653,16 +648,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
+    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="115" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="29" column="21" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="930">
+        <state line="44" column="28" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
@@ -672,9 +667,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="418" selection-end="418" vertical-scroll-proportion="0.41919807" vertical-offset="0" max-vertical-offset="915">
+        <state line="17" column="57" selection-start="2117" selection-end="2117" vertical-scroll-proportion="0.3244275" vertical-offset="0" max-vertical-offset="786">
           <folding />
         </state>
       </provider>
