@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
     </list>
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30984205" vertical-offset="0" max-vertical-offset="945">
+            <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="95" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="930">
+            <state line="23" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.43178973" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app.yaml" />
         <option value="$PROJECT_DIR$/../../Sandbox/appengine-java-vm-hello/src/main/webapp/WEB-INF/appengine-web.xml" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
-        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
       </list>
     </option>
   </component>
@@ -646,16 +646,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
+    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="95" selection-start="1004" selection-end="1004" vertical-scroll-proportion="-23.125" vertical-offset="0" max-vertical-offset="930">
+        <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30984205" vertical-offset="0" max-vertical-offset="945">
+        <state line="23" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.43178973" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
