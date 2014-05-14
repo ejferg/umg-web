@@ -37,7 +37,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.43178973" vertical-offset="0" max-vertical-offset="930">
+            <state line="24" column="28" selection-start="664" selection-end="664" vertical-scroll-proportion="0.4505632" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -655,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="85" selection-start="589" selection-end="589" vertical-scroll-proportion="0.43178973" vertical-offset="0" max-vertical-offset="930">
+        <state line="24" column="28" selection-start="664" selection-end="664" vertical-scroll-proportion="0.4505632" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
