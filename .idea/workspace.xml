@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="" />
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
