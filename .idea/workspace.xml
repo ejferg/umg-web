@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
     </list>
     <ignored path="umg-web.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="7" selection-start="356" selection-end="356" vertical-scroll-proportion="0.34629405" vertical-offset="0" max-vertical-offset="930">
+            <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30984205" vertical-offset="0" max-vertical-offset="945">
               <folding />
             </state>
           </provider>
@@ -656,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="356" selection-end="356" vertical-scroll-proportion="0.34629405" vertical-offset="0" max-vertical-offset="930">
+        <state line="17" column="19" selection-start="346" selection-end="346" vertical-scroll-proportion="0.30984205" vertical-offset="0" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
