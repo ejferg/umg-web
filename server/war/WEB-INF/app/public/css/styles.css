@@ -1,3 +1,5 @@
+/* DEFAULTS */
+
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic);
 
 body{
@@ -7,6 +9,8 @@ body{
     overflow: hidden;
     color: #fff;
     font-weight: 200;
+    width: 100%;
+    height: 100%;
 }
 
 h3 {
@@ -17,6 +21,9 @@ h3 {
 a:link, a:hover, a:visited, a:active {
     color: #ff0099;
 }
+
+
+/* CONTENT */
 
 #logo {
     width: 195px;
@@ -54,5 +61,58 @@ a:link, a:hover, a:visited, a:active {
     margin-left: 40px;
 }
 
+/* TRANSITIONS */
+
+
+.transition-background-black-state {
+
+
+}
+
+.transition-background-white-state {
+
+
+}
+
+.transition-background-pink-state {
+
+
+}
+
+.transition-tag-black-state {
+
+}
+
+.transition-tag-white-state {
+
+}
+
+.transition-tag-pink-state {
+
+}
+
+.transition-content-black-state {
+
+}
+
+.transition-content-white-state {
+
+}
+
+.transition-content-pink-state {
+
+}
+
+.transition-contact-black-state {
+
+}
+
+.transition-contact-white-state {
+
+}
+
+.transition-contact-pink-state {
+
+}
 
 /*color: #ff0099;*/

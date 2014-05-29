@@ -1,6 +1,8 @@
-<div>
+<div itemscope itemtype="http://schema.org/Organization">
 
-    <div id="logo"></div>
+    <div id="logo">
+        <meta itemprop="logo" content="http://www.ullisenmedia.com/images/logo_blk.png" />
+    </div>
 
     <div id="tags">
 
@@ -20,7 +22,7 @@
 
     <div id="about">
         <p>
-            Ullisen Media Group is an interactive development firm that's ready and willing to do cool and crazy new
+            <span itemprop="name">Ullisen Media Group</span> is an interactive development firm that's ready and willing to do cool and crazy new
             mobile, web, and social app user experiences. Our goal is to make cool it by any means necessary. So come back soon and
             checkout our new user experience.
         </p>
@@ -29,17 +31,38 @@
     <div id="contact">
         <p>
             <div class="info email">
-                @: <span><a href="mailto:info@ullisen.com">info@ullisen.com</a></span>
+                @: <span><a href="mailto:info@ullisen.com" itemprop="email">info@ullisen.com</a></span>
             </div>
 
             <div class="info phone">
-                #: <span>404.236.9479</span>
+                #: <span itemprop="telephone">404.236.9479</span>
+            </div>
+
+            <div class="info address">
+                a: <span itemprop="address">Atlanta, GA 30309</span>
             </div>
         </p>
     </div>
 
+    <meta itemprop="url" content="http://www.ullisenmedia.com" />
 
 </div>
+
+<!-- JQUERY -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+
+        var init = function() {
+
+        };
+
+        init();
+    });
+
+</script>
 
 <!-- GOOGLE ANALYTICS CODE -->
 <script type="text/javascript">
