@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/design/pixel_bg.png" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/images/pixel_bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" afterPath="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="86" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16959798" vertical-offset="0" max-vertical-offset="1275">
+            <state line="41" column="21" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.77261305" vertical-offset="0" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
@@ -40,7 +39,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
+            <state line="23" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -49,7 +48,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="37" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1845">
+            <state line="56" column="39" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1860">
               <folding />
             </state>
           </provider>
@@ -284,6 +283,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umg-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umg-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="war" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,21 +715,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="37" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" vertical-offset="815" max-vertical-offset="1845">
+        <state line="56" column="39" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1860">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="495">
+        <state line="23" column="16" selection-start="2290" selection-end="2290" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="86" selection-start="245" selection-end="245" vertical-scroll-proportion="0.16959798" vertical-offset="0" max-vertical-offset="1275">
+        <state line="41" column="21" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.77261305" vertical-offset="0" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
