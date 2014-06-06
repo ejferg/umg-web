@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/profile_pic.psd" afterPath="$PROJECT_DIR$/design/profile_pic.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/styles.css" afterPath="$PROJECT_DIR$/blog/css/styles.css" />
     </list>
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+            <state line="32" column="43" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -41,7 +38,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="65" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.85365856" vertical-offset="860" max-vertical-offset="1680">
+            <state line="25" column="41" selection-start="744" selection-end="744" vertical-scroll-proportion="0.45731708" vertical-offset="0" max-vertical-offset="2760">
               <folding />
             </state>
           </provider>
@@ -758,14 +755,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="45" selection-start="555" selection-end="555" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="510">
+        <state line="32" column="43" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="65" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.85365856" vertical-offset="860" max-vertical-offset="1680">
+        <state line="25" column="41" selection-start="744" selection-end="744" vertical-scroll-proportion="0.45731708" vertical-offset="0" max-vertical-offset="2760">
           <folding />
         </state>
       </provider>
