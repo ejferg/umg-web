@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_fb_wht.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_gplus_wht.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_twitter_wht.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/magnifying-glass-2x.psd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/styles.css" afterPath="$PROJECT_DIR$/blog/css/styles.css" />
     </list>
@@ -30,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="399" column="23" selection-start="6000" selection-end="6000" vertical-scroll-proportion="0.49029127" vertical-offset="5581" max-vertical-offset="6600">
+            <state line="432" column="23" selection-start="6409" selection-end="6409" vertical-scroll-proportion="-23.615385" vertical-offset="5866" max-vertical-offset="6795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="93" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.125" vertical-offset="567" max-vertical-offset="1380">
+            <state line="83" column="71" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.6863469" vertical-offset="687" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -119,8 +115,8 @@
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/public/css/styles.css" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/index.html" />
         <option value="$PROJECT_DIR$/server/war/WEB-INF/app/views/layout.html" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/css/styles.css" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
       </list>
     </option>
   </component>
@@ -788,16 +784,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="93" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.125" vertical-offset="567" max-vertical-offset="1380">
+        <state line="432" column="23" selection-start="6409" selection-end="6409" vertical-scroll-proportion="-23.615385" vertical-offset="5866" max-vertical-offset="6795">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="23" selection-start="6000" selection-end="6000" vertical-scroll-proportion="0.49029127" vertical-offset="5581" max-vertical-offset="6600">
+        <state line="83" column="71" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.6863469" vertical-offset="687" max-vertical-offset="1500">
           <folding />
         </state>
       </provider>

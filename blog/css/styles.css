@@ -1,7 +1,7 @@
 /*padding: T R B L;*/
 
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic);
-@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic);
 
 /*  DEFAULTS */
 html {
@@ -430,5 +430,18 @@ a.icon-www:hover {
     width: 20%;
     margin-left: 10px;
     float: right;
+    padding-right: 20px;
+}
+
+#post .sub .about .label {
+
+    color: #ff0099;
+    font-family: Source Sans Pro, Sans-Serif, serif;
+    font-weight: 200;
+}
+
+#post .sub .about p {
+
+    font-style: italic;
 }
 
