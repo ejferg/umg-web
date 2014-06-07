@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
 
 html {
     height: 100%;
@@ -9,7 +10,9 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: "Source Sans Pro";
+    font-family: Crimson Text, Times,Times New Roman, serif;;
+    font-variant: normal;
+    font-style: normal;
     font-weight: 200;
 
 }
@@ -35,10 +38,17 @@ body {
     left: -40px;
 }
 
-.right {
-
-    right: 0;
+a:link, a:visited, a:hover, a:active {
+    color: #ff0099;
+    text-decoration: none;
 }
+
+a:hover {text-decoration: underline;}
+
+.uppercase {text-transform:uppercase;}
+.lowercase {text-transform:lowercase;}
+
+.right {right: 0;}
 
 .clear:before,
 .clear:after {
@@ -48,6 +58,14 @@ body {
 
 .clear:after {
     clear: both;
+}
+
+.line-through {
+
+    /*width: 100%;*/
+    height: 48px;
+    background: url("../images/line-through.png") no-repeat left top;
+    position: relative;
 }
 
 #header {
@@ -101,6 +119,7 @@ body {
     min-width: 100px;
     height: 60px;
     color: #aaaaaa;
+    font-family: "Source Sans Pro";
     font-size: 16pt;
     margin-top: 10px;
     margin-left: -16px;
@@ -234,26 +253,64 @@ body {
 
 #post {
 
+    margin-top: 40px;
     width: 100%;
     height: 100%;
 }
 
 .post {
 
+    /*padding: 10px;*/
     height: 100%;
 }
 
 #post .main {
 
-    width: 70%;
+    width: 75%;
+    margin-left: 60px;
     float: left;
+}
 
-    background-color: #0000ee;
+#post .header {
+
+    width: auto;
+    display: inline-block;
+}
+
+#post .header .line-through {
+
+    top: -70px;
+}
+
+#post .main h1 {
+
+    font-family: "Crimson Text";
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -2px;
+}
+
+#post .main h1 a:visited, a:link, a:hover, a:active {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+#post .main h2 {
+
+    margin-top: -50px;
+    font-weight: 400;
+}
+
+#post .main p {
+
+    max-width: 60%;
 }
 
 #post .sub {
 
-    width: 30%;
+    width: 20%;
+    margin-left: 10px;
     float: right;
-    background-color: #ff0000;
 }
+
