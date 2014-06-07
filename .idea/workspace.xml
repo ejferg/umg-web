@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_fb_wht.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_gplus_wht.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/icon_twitter_wht.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/images/magnifying-glass-2x.psd" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/styles.css" afterPath="$PROJECT_DIR$/blog/css/styles.css" />
     </list>
@@ -29,7 +33,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="64" selection-start="359" selection-end="359" vertical-scroll-proportion="0.25485438" vertical-offset="0" max-vertical-offset="4830">
+            <state line="399" column="23" selection-start="6000" selection-end="6000" vertical-scroll-proportion="0.49029127" vertical-offset="5581" max-vertical-offset="6600">
               <folding />
             </state>
           </provider>
@@ -38,7 +42,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="25" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-20.125" vertical-offset="147" max-vertical-offset="990">
+            <state line="46" column="93" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.125" vertical-offset="567" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -47,7 +51,7 @@
       <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-1.75" vertical-offset="3138" max-vertical-offset="9465">
+            <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-132.5" vertical-offset="0" max-vertical-offset="9465">
               <folding />
             </state>
           </provider>
@@ -779,21 +783,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-1.75" vertical-offset="3138" max-vertical-offset="9465">
+        <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-132.5" vertical-offset="0" max-vertical-offset="9465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-20.125" vertical-offset="147" max-vertical-offset="990">
+        <state line="46" column="93" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-5.125" vertical-offset="567" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="359" selection-end="359" vertical-scroll-proportion="0.25485438" vertical-offset="0" max-vertical-offset="4830">
+        <state line="399" column="23" selection-start="6000" selection-end="6000" vertical-scroll-proportion="0.49029127" vertical-offset="5581" max-vertical-offset="6600">
           <folding />
         </state>
       </provider>
