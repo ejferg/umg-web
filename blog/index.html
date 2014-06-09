@@ -36,7 +36,7 @@
               <input type="text" name="q" id="q" placeholder="Search Nerd Talk" autocomplete="false" autocorrect="false">
           </form>
 
-          <div id="post">
+          <div id="posts">
 
               <div class="post main">
 
@@ -57,6 +57,7 @@
 
                       <div class="line dotted"></div>
 
+                      <a href="#"><img src="http://www.w8themes.com/wp-content/uploads/2013/11/Free-Wallpaper-For-Android.png"/></a>
                       <p>
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie id <a href="#">neque</a> at tempor. Nam cursus dignissim orci. Aliquam accumsan lectus eget risus dapibus vehicula. Nulla scelerisque varius diam, eget iaculis dolor hendrerit ut. Cras interdum ipsum mi, pellentesque tristique dui iaculis id. Nullam at lobortis tellus. Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
@@ -128,8 +129,12 @@
                       <h3>Recent Posts</h3>
                   </div>
 
-                  <div class="tags">
-                      <h3>Tags</h3>
+                  <div class="links">
+                      <h3>Links</h3>
+                      <ul>
+                          <li><a href="/archive">Archive</a></li>
+                          <li><a href="/rss">Rss</a></li>
+                      </ul>
                   </div>
 
               </div>
@@ -189,6 +194,11 @@
 
                     searchForm.show();
                     searchForm.height(150);
+
+                } else {
+
+                    searchForm.hide();
+                    searchForm.height(0);
                 }
 
             };

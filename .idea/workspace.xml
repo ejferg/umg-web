@@ -4,6 +4,7 @@
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/styles.css" afterPath="$PROJECT_DIR$/blog/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +30,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="19" selection-start="4516" selection-end="4516" vertical-scroll-proportion="74.46154" vertical-offset="6091" max-vertical-offset="6915">
+            <state line="380" column="13" selection-start="5835" selection-end="5835" vertical-scroll-proportion="-24.384615" vertical-offset="5066" max-vertical-offset="7095">
               <folding />
             </state>
           </provider>
@@ -38,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="115" selection-start="7337" selection-end="7337" vertical-scroll-proportion="0.48339483" vertical-offset="2127" max-vertical-offset="3210">
+            <state line="134" column="39" selection-start="6434" selection-end="6434" vertical-scroll-proportion="2.4723246" vertical-offset="0" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
@@ -47,7 +48,7 @@
       <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-132.5" vertical-offset="0" max-vertical-offset="9465">
+            <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="43.75" vertical-offset="4230" max-vertical-offset="9465">
               <folding />
             </state>
           </provider>
@@ -779,21 +780,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="-132.5" vertical-offset="0" max-vertical-offset="9465">
+        <state line="212" column="32" selection-start="8505" selection-end="8806" vertical-scroll-proportion="43.75" vertical-offset="4230" max-vertical-offset="9465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="19" selection-start="4516" selection-end="4516" vertical-scroll-proportion="74.46154" vertical-offset="6091" max-vertical-offset="6915">
+        <state line="380" column="13" selection-start="5835" selection-end="5835" vertical-scroll-proportion="-24.384615" vertical-offset="5066" max-vertical-offset="7095">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="115" selection-start="7337" selection-end="7337" vertical-scroll-proportion="0.48339483" vertical-offset="2127" max-vertical-offset="3210">
+        <state line="134" column="39" selection-start="6434" selection-end="6434" vertical-scroll-proportion="2.4723246" vertical-offset="0" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
