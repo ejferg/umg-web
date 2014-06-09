@@ -23,7 +23,7 @@
                   <li><a class="icon icon-social-state icon-twitter" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
                   <li><a class="icon icon-social-state icon-gplus" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
                   <li><a class="icon icon-www" href="http://ullisenmedia.com" target="_blank"></a></li>
-                  <li><a class="icon search" href="#"></a></li>
+                  <li><a id="searchButton" class="icon search" href="#"></a></li>
               </ul>
 
           </div>
@@ -75,8 +75,45 @@
                       </div>
                   </div>
 
+                  <div class="content content-text">
+                      <div class="header">
+                          <div class="title clear">
+                              <h1><a href="#">Google Dart And Some Other Shit</a></h1>
+                              <div class="icon-content-type comments"><span class="count">100</span></div>
+                          </div>
+
+                          <div class="line-through"></div>
+
+                      </div>
+
+                      <h2>
+                          <span><a href="#">Code:</a> Dart is so damn cool.</span>
+                      </h2>
+
+                      <div class="line dotted"></div>
+
+                      <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie id <a href="#">neque</a> at tempor. Nam cursus dignissim orci. Aliquam accumsan lectus eget risus dapibus vehicula. Nulla scelerisque varius diam, eget iaculis dolor hendrerit ut. Cras interdum ipsum mi, pellentesque tristique dui iaculis id. Nullam at lobortis tellus. Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+
+                      <div class="footer">
+
+                          <div class="read-more"><span>Read: <a href="#">More Google Dart And Some Other Shit</a></span></div>
+                          <div class="menu social clear">
+                              <ul>
+                                  <li><a class="icon icon-facebook-nobg" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
+                                  <li><a class="icon icon-twitter-nobg" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
+                                  <li><a class="icon icon-gplus-nobg" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
+                              </ul>
+                          </div>
+
+                      </div>
+                  </div>
+
 
               </div>
+
+
 
               <div class="post sub">
 
@@ -86,10 +123,87 @@
                           Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       </p>
                   </div>
+
+                  <div class="recent-posts">
+                      <h3>Recent Posts</h3>
+                  </div>
+
+                  <div class="tags">
+                      <h3>Tags</h3>
+                  </div>
+
               </div>
           </div>
 
       </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+        // Get recent posts: http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=10
+
+        $('document').ready(function() {
+
+            var searchForm;
+            var searchButton;
+
+            var init = function() {
+
+                searchForm = $('#search');
+                searchButton = $('#searchButton');
+
+                addListeners();
+                getRecentPosts();
+            };
+
+            var getRecentPosts = function() {
+
+                var elements = [];
+                var url = 'http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=5';
+                var data = JSON.parse(recentPost);
+
+                $.each(data.posts, function(key, val) {
+
+                    console.log(val['regular-title']);
+                    elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
+                });
+
+                $( "<ul/>", {
+                    "class": "recent-post-list",
+                    html: elements.join('')
+                }).appendTo( ".recent-posts" );
+
+//                $.getJSON(url, function(data) {
+//                       console.log(data);
+//                    $.each(data, function(key, val) {
+//
+//
+//                    });
+//                });
+            };
+
+            var onSearchButtonClicked = function() {
+
+                var isActive = searchForm.css("display") == 'none';
+
+                if(isActive) {
+
+                    searchForm.show();
+                    searchForm.height(150);
+                }
+
+            };
+
+            var addListeners = function() {
+
+                searchButton.click($.proxy(onSearchButtonClicked, this));
+            };
+
+            var recentPost = '{"tumblelog":{"title":"Untitled","description":"","name":"ullisenmedia","timezone":"US/Eastern","cname":false,"feeds":[]},"posts-start":0,"posts-total":"2","posts-type":false,"posts":[{"id":"88120994799","url":"http://ullisenmedia.tumblr.com/post/88120994799","url-with-slug":"http://ullisenmedia.tumblr.com/post/88120994799/tags","type":"regular","date-gmt":"2014-06-07 23:30:12 GMT","date":"Sat, 07 Jun 2014 19:30:12","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402183812,"format":"html","reblog-key":"CNwC8HJp","slug":"tags","regular-title":"Tags","regular-body":"Tags Test","tags":["apple","ios","iphone","objectivec","c++","javascript","flash","adobe","dartlang","mac","microsoft","sony","lg","nexus tablet","nexus"]},{"id":"87947059274","url":"http://ullisenmedia.tumblr.com/post/87947059274","url-with-slug":"http://ullisenmedia.tumblr.com/post/87947059274/google-dart","type":"regular","date-gmt":"2014-06-06 01:56:49 GMT","date":"Thu, 05 Jun 2014 21:56:49","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402019809,"format":"html","reblog-key":"Vs2ScvwX","slug":"google-dart","regular-title":"Google Dart","regular-body":"Dart is an open-source Web programming language developed by Google. It was unveiled at the GOTO conference in Aarhus, October 10–12, 2011.[3] The goal of Dart is “ultimately to replace JavaScript as the lingua franca of web development on the open web platform”.[4] Until then, in order to run in mainstream browsers, Dart relies on a source-to-source compilerto JavaScript. For performance reasons Google engineers solved their JavaScript issues by evolving Dart rather than extending JavaScript.[4] Dart enables Google to build more full-featured complexity into client-side Web applications"}]}';
+
+            init();
+        });
+
+    </script>
 
 </body>
 </html>
