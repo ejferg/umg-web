@@ -1,64 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <title>{Title}{block:SearchPage} ({lang:Search results for SearchQuery}){/block:SearchPage}{block:PermalinkPage}{block:PostSummary} — {PostSummary}{/block:PostSummary}{/block:PermalinkPage}</title>
+    {block:Description}
+    <meta name="description" content="{MetaDescription}">
+    {/block:Description}
+
+    {block:Hidden}
+
+    <meta name="text:Disqus shortname" content="">
+    <meta name="text:Google analytics ID" content="">
+    {/block:Hidden}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
     <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/c7in6xm69/main.css" />
+
+    <style>{CustomCSS}</style>
 </head>
+
 <body>
+      <div id="header">
 
-      <div id="top-container">
+          <div class="menu left">
+              <ul>
+                  <li class="icon umg"></li>
+                  <li class="logo"></li>
+                  <li class="tag">nerd.talk</li>
+              </ul>
+          </div>
 
-          <div id="header">
+          <div class="menu right clear">
 
-              <a href="/" class="menu left">
-
-                  <ul>
-                      <li class="icon umg"></li>
-                      <li class="logo"></li>
-                      <li class="tag">nerd.talk</li>
-                  </ul>
-
-              </a>
-
-              <div class="menu right clear">
-
-                  <ul>
-                      <li><a class="icon icon-social-state icon-facebook" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
-                      <li><a class="icon icon-social-state icon-twitter" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
-                      <li><a class="icon icon-social-state icon-gplus" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
-                      <li><a class="icon icon-www" href="http://ullisenmedia.com" target="_blank"></a></li>
-                      <li><a id="searchButton" class="icon search" href="#"></a></li>
-                  </ul>
-
-              </div>
+              <ul>
+                  <li><a class="icon icon-social-state icon-facebook" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
+                  <li><a class="icon icon-social-state icon-twitter" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
+                  <li><a class="icon icon-social-state icon-gplus" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
+                  <li><a class="icon icon-www" href="http://ullisenmedia.com" target="_blank"></a></li>
+                  <li><a id="searchButton" class="icon search" href="#"></a></li>
+              </ul>
 
           </div>
+
+      </div>
+
+      <div id="content">
 
           <form id="search" action="/search" method="get">
               <input type="text" name="q" id="q" placeholder="Search Nerd Talk" autocomplete="false" autocorrect="false">
           </form>
 
-      </div>
+          <div id="posts">
 
-      <div id="expander"></div>
+              {block:SearchPage}
+              {block:SearchResults}
+                <p class="search-results">{lang:Your search for SearchQuery returned SearchResultCount results 2}</p>
+              {block:SearchResults}
 
-      <div id="content-container">
 
-          <div id="content">
 
-              <div id="main-content" class="column">
+              {block:NoSearchResults}
+              <div class="post">
+                  <div class="content">
+                      <p>{lang:No search results for SearchQuery 2}</p>
+                  </div>
+              </div>
+              {block:NoSearchResults}
+              {/block:SearchPage}
 
-                  <div class="post post-text">
+
+              {block:Posts}
+              {block:Text}
+              <div class="post main">
+
+                  <div class="content content-text">
+
+                      {block:Title}
                       <div class="header">
                           <div class="title clear">
-                              <h1><a href="#">Google Dart And Some Other Shit</a></h1>
+                              <h1><a href="{Permalink}">{Title}</a></h1>
                               <div class="icon-content-type comments"><span class="count">100</span></div>
                           </div>
 
                           <div class="line-through"></div>
 
                       </div>
+                      {/block:Title}
 
                       <h2>
                           <span><a href="#">Code:</a> Dart is so damn cool.</span>
@@ -66,14 +99,11 @@
 
                       <div class="line dotted"></div>
 
-                      <a href="#"><img src="http://www.w8themes.com/wp-content/uploads/2013/11/Free-Wallpaper-For-Android.png"/></a>
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie id <a href="#">neque</a> at tempor. Nam cursus dignissim orci. Aliquam accumsan lectus eget risus dapibus vehicula. Nulla scelerisque varius diam, eget iaculis dolor hendrerit ut. Cras interdum ipsum mi, pellentesque tristique dui iaculis id. Nullam at lobortis tellus. Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
+                      <p>{Body}</p>
 
                       <div class="footer">
 
-                          <div class="read-more"><span>Read: <a href="#">More Google Dart And Some Other Shit</a></span></div>
+                          <div class="read-more"><span>Read: <a href="#">{Title}</a></span></div>
                           <div class="menu social clear">
                               <ul>
                                   <li><a class="icon icon-facebook-nobg" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
@@ -84,48 +114,13 @@
 
                       </div>
                   </div>
-
-                  <div class="post post-text">
-                      <div class="header">
-                          <div class="title clear">
-                              <h1><a href="#">Google Dart And Some Other Shit</a></h1>
-                              <div class="icon-content-type comments"><span class="count">100</span></div>
-                          </div>
-
-                          <div class="line-through"></div>
-
-                      </div>
-
-                      <h2>
-                          <span><a href="#">Code:</a> Dart is so damn cool.</span>
-                      </h2>
-
-                      <div class="line dotted"></div>
-
-                      <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus molestie id <a href="#">neque</a> at tempor. Nam cursus dignissim orci. Aliquam accumsan lectus eget risus dapibus vehicula. Nulla scelerisque varius diam, eget iaculis dolor hendrerit ut. Cras interdum ipsum mi, pellentesque tristique dui iaculis id. Nullam at lobortis tellus. Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-
-                      <div class="footer">
-
-                          <div class="read-more"><span>Read: <a href="#">More Google Dart And Some Other Shit</a></span></div>
-                          <div class="menu social clear">
-                              <ul>
-                                  <li><a class="icon icon-facebook-nobg" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
-                                  <li><a class="icon icon-twitter-nobg" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
-                                  <li><a class="icon icon-gplus-nobg" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
-                              </ul>
-                          </div>
-
-                      </div>
-                  </div>
-
 
               </div>
+              {/block:Text}
+              {/block:Posts}
 
 
-
-              <div id="side-content" class="column">
+              <div class="post sub">
 
                   <div class="about">
                       <h3>What is <span class="label">nerd.talk</span> ?</h3>
@@ -166,7 +161,7 @@
                 searchButton = $('#searchButton');
 
                 addListeners();
-                getRecentPosts();
+//                getRecentPosts();
             };
 
             var getRecentPosts = function() {

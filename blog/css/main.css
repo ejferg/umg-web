@@ -79,7 +79,7 @@ a:hover {text-decoration: underline;}
 
     /*width: 100%;*/
     height: 48px;
-    background: url("../images/line-through.png") no-repeat left top;
+    background: url("http://static.tumblr.com/h4hpg15/eKQn6xldg/line-through.png") no-repeat left top;
     position: relative;
 }
 
@@ -101,7 +101,7 @@ a.icon {
 
     width: 46px;
     height: 42px;
-    background: url("../images/msg-bubble.png") no-repeat left top;
+    background: url("http://static.tumblr.com/h4hpg15/Efsn6xlev/msg-bubble.png") no-repeat left top;
     position: relative;
 }
 
@@ -117,7 +117,7 @@ a.icon-social-state:hover {
 
 .icon-facebook {
 
-    background: url('../images/icon-fb.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/penn6xl5z/icon-fb.png') no-repeat center;
 }
 
 a.icon-facebook:hover {
@@ -127,7 +127,7 @@ a.icon-facebook:hover {
 
 .icon-twitter {
 
-    background: url('../images/icon-twitter.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/SBIn6xlbr/icon-twitter.png') no-repeat center;
 }
 
 a.icon-twitter:hover {
@@ -138,7 +138,7 @@ a.icon-twitter:hover {
 
 .icon-gplus {
 
-    background: url('../images/icon-gplus.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/7fqn6xl8u/icon-gplus.png') no-repeat center;
 }
 
 a.icon-gplus:hover {
@@ -148,39 +148,39 @@ a.icon-gplus:hover {
 
 .icon-facebook-nobg {
 
-    background: url('../images/icon-fb-blk.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/3Qwn6xl4a/icon-fb-blk.png') no-repeat center;
 }
 
 a.icon-facebook-nobg:hover {
 
-    background: url('../images/icon-fb-color.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/Nl0n6xl6s/icon-fb-color.png') no-repeat center;
 }
 
 .icon-twitter-nobg {
 
-    background: url('../images/icon-twitter-blk.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/gA3n6xla5/icon-twitter-blk.png') no-repeat center;
 }
 
 a.icon-twitter-nobg:hover {
 
-    background: url('../images/icon-twitter-color.png') no-repeat center;;
+    background: url('http://static.tumblr.com/h4hpg15/vxAn6xlav/icon-twitter-color.png') no-repeat center;;
 }
 
 
 .icon-gplus-nobg {
 
-    background: url('../images/icon-gplus-blk.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/Hvwn6xl7n/icon-gplus-blk.png') no-repeat center;
 }
 
 a.icon-gplus-nobg:hover {
 
-    background: url('../images/icon-gplus-color.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/Xn9n6xl8h/icon-gplus-color.png') no-repeat center;
 }
 
 .icon-www {
 
     width: 100px !important;
-    background: url('../images/icon-www.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/V8Qn6xlcz/icon-www.png') no-repeat center;
     border: 1px solid #242424;
     border-top: 0;
     border-bottom: 0;
@@ -191,15 +191,28 @@ a.icon-www:hover {
     background-color: #313131;
 }
 
+#top-container {
+
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#expander {
+
+    width: 100%;
+    height: 120px;
+}
+
 #header {
 
     margin: 0;
     color: #ffffff;
     width: 100%;
     height: 60px;
-    top: 0;
-    right: 0;
-    position: fixed;
     background-color: #000000;
 }
 
@@ -209,6 +222,7 @@ a.icon-www:hover {
     height: 60px;
     top: 0;
     position: absolute;
+    display: block;
 }
 
 .menu ul {
@@ -229,7 +243,7 @@ a.icon-www:hover {
     width: 112px;
     height: 60px;
     margin-left: -12px;
-    background: url('../images/logo.png') no-repeat left;
+    background: url('http://static.tumblr.com/h4hpg15/uG0n6xldv/logo.png') no-repeat left;
 }
 
 #header .tag {
@@ -247,13 +261,13 @@ a.icon-www:hover {
 
 #header .umg {
 
-    background: url('../images/icon-umg.png') no-repeat left;
+    background: url('http://static.tumblr.com/h4hpg15/ztVn6xlc3/icon-umg.png') no-repeat left;
     /*border-right: 1px solid #242424;*/
 }
 
 #header .search {
 
-    background: url('../images/icon-search.png') no-repeat center;
+    background: url('http://static.tumblr.com/h4hpg15/IbEn6xl9c/icon-search.png') no-repeat center;
 }
 
 #header a.search:hover {
@@ -267,8 +281,6 @@ a.icon-www:hover {
     width: 100%;
     height: 0px;
     display: none;
-    /*height: 150px;*/
-    margin-top: 80px;
     background: #ffffff;
 
     -moz-transition: 1s;
@@ -306,55 +318,61 @@ a.icon-www:hover {
     opacity: 0;
 }
 
+#content-container {
+
+    min-width: 980px;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.column {
+
+    display: inline;
+    overflow: hidden;
+}
+
 #content {
 
     width: 100%;
-    height: 100%;
 }
 
-#posts {
-
-    margin-top: 100px;
-    width: 100%;
-    height: 100%;
-}
-
-.post {
+.content {
 
     /*padding: 10px;*/
     height: 100%;
 }
 
-#posts .content {
+#content .post {
 
     margin-bottom: 20px;
 }
 
-#posts .main {
+#main-content {
 
-    width: 75%;
-    margin-left: 60px;
+    max-width: 720px;
+    /*margin-left: 60px;*/
     float: left;
 }
 
 
-#posts .content .header {
+#main-content .post .header {
 
     width: auto;
     display: inline-block;
 }
 
-#posts .content .header .line-through {
+#main-content .post .header .line-through {
 
     top: -70px;
 }
 
-#posts .content p {
+#main-content .post p {
 
-    max-width: 60%;
+    max-width: 100%;
 }
 
-#posts .content-text h1 {
+#main-content .post-text h1 {
 
     color: #000000;
     font-size: 48px;
@@ -363,33 +381,33 @@ a.icon-www:hover {
     float: left;
 }
 
-#posts .content-text .title a {
+#content .post-text .title a {
 
     color: #000000;
     text-decoration: none;
 }
 
-#posts .content-text h2 {
+#main-content .post-text h2 {
 
     margin-top: -95px;
     font-weight: 400;
     font-size: 26px;
 }
 
-#posts .content-text img {
+#main-content .post-text img {
 
-    max-width: 60%;
+    max-width: 100%;
     height: auto;
 }
 
-#posts .content .icon-content-type {
+#main-content .post .icon-content-type {
 
     top: 20px;
     left: -5px;
     float: right;
 }
 
-#posts .content .icon-content-type span {
+#main-content .post .icon-content-type span {
 
     display: block;
     text-align: center;
@@ -397,70 +415,68 @@ a.icon-www:hover {
     margin-top: 5px;
 }
 
-#posts .footer {
+#main-content .footer {
 
-    width: 60%;
+    width: 100%;
 }
 
-#posts .footer div {
+#main-content .footer div {
 
     border-right: 1px solid #ffffff;
 }
 
-#posts .footer .read-more {
+#main-content .footer .read-more {
 
-    font-size: 24px;
+    font-size: 18px;
     height: 33px;
-    width: 60%;
     float: left;
 }
 
-#posts .footer .social {
+#main-content .footer .social {
 
     height: 33px;
     border-left: 1px solid #ffffff;
     float: right;
 }
 
-#posts .footer .social ul {
+#main-content .footer .social ul {
 
     margin: 0;
     padding: 0;
 }
 
-#posts .footer .social li {
+#main-content .footer .social li {
 
     height: 100%;
 }
 
-#posts .footer .social .icon {
+#main-content .footer .social .icon {
 
     width: 30px;
     height: 100%;
 }
 
-#posts .sub {
+#side-content {
 
-    width: 20%;
-    margin-left: 10px;
+    width: 220px;
+    margin: 30px 0;
     float: right;
-    padding-right: 20px;
 }
 
-#posts .sub .about .label {
+#side-content .about .label {
 
     color: #ff0099;
     font-family: Source Sans Pro, Sans-Serif, serif;
     font-weight: 200;
 }
 
-#posts .sub ul {
+#side-content ul {
 
     padding: 0;
     list-style: none;
 }
 
-#posts .sub .about p {
+#side-content .about p {
 
     font-style: italic;
 }
