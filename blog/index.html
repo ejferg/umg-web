@@ -161,7 +161,7 @@
             var searchButton;
             var searchField;
 
-            var SEARCH_EXPAND_INCR = 33;
+            var SEARCH_EXPAND_INCR = 34;
 
             var SEARCH_FIELD_MIN_WIDTH = 250;
 
@@ -239,8 +239,9 @@
 
             var addListeners = function() {
 
-                searchField.keypress($.proxy(onSearchInputChange, this));
                 searchButton.click($.proxy(onSearchButtonClicked, this));
+                searchForm.focusout($.proxy(onSearchButtonClicked, this))
+                searchField.keypress($.proxy(onSearchInputChange, this));
             };
 
             var recentPost = '{"tumblelog":{"title":"Untitled","description":"","name":"ullisenmedia","timezone":"US/Eastern","cname":false,"feeds":[]},"posts-start":0,"posts-total":"2","posts-type":false,"posts":[{"id":"88120994799","url":"http://ullisenmedia.tumblr.com/post/88120994799","url-with-slug":"http://ullisenmedia.tumblr.com/post/88120994799/tags","type":"regular","date-gmt":"2014-06-07 23:30:12 GMT","date":"Sat, 07 Jun 2014 19:30:12","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402183812,"format":"html","reblog-key":"CNwC8HJp","slug":"tags","regular-title":"Tags","regular-body":"Tags Test","tags":["apple","ios","iphone","objectivec","c++","javascript","flash","adobe","dartlang","mac","microsoft","sony","lg","nexus tablet","nexus"]},{"id":"87947059274","url":"http://ullisenmedia.tumblr.com/post/87947059274","url-with-slug":"http://ullisenmedia.tumblr.com/post/87947059274/google-dart","type":"regular","date-gmt":"2014-06-06 01:56:49 GMT","date":"Thu, 05 Jun 2014 21:56:49","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402019809,"format":"html","reblog-key":"Vs2ScvwX","slug":"google-dart","regular-title":"Google Dart","regular-body":"Dart is an open-source Web programming language developed by Google. It was unveiled at the GOTO conference in Aarhus, October 10–12, 2011.[3] The goal of Dart is “ultimately to replace JavaScript as the lingua franca of web development on the open web platform”.[4] Until then, in order to run in mainstream browsers, Dart relies on a source-to-source compilerto JavaScript. For performance reasons Google engineers solved their JavaScript issues by evolving Dart rather than extending JavaScript.[4] Dart enables Google to build more full-featured complexity into client-side Web applications"}]}';
