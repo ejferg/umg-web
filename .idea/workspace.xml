@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/nt.template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/css/styles.css" afterPath="$PROJECT_DIR$/blog/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/main.css" afterPath="$PROJECT_DIR$/blog/css/main.css" />
     </list>
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="461" column="18" selection-start="7384" selection-end="7384" vertical-scroll-proportion="0.49029127" vertical-offset="6511" max-vertical-offset="7335">
+            <state line="314" column="20" selection-start="5624" selection-end="5624" vertical-scroll-proportion="-21.884615" vertical-offset="4141" max-vertical-offset="7680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="3495">
+            <state line="163" column="39" selection-start="7235" selection-end="7235" vertical-scroll-proportion="0.5044473" vertical-offset="2048" max-vertical-offset="3885">
               <folding />
             </state>
           </provider>
@@ -147,8 +145,8 @@
         <option value="$PROJECT_DIR$/blog/test.html" />
         <option value="$PROJECT_DIR$/blog/css/styles.css" />
         <option value="$PROJECT_DIR$/blog/nt.template.html" />
-        <option value="$PROJECT_DIR$/blog/index.html" />
         <option value="$PROJECT_DIR$/blog/css/main.css" />
+        <option value="$PROJECT_DIR$/blog/index.html" />
       </list>
     </option>
   </component>
@@ -792,16 +790,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="543" selection-end="543" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="3495">
+        <state line="314" column="20" selection-start="5624" selection-end="5624" vertical-scroll-proportion="-21.884615" vertical-offset="4141" max-vertical-offset="7680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/main.css">
+    <entry file="file://$PROJECT_DIR$/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="461" column="18" selection-start="7384" selection-end="7384" vertical-scroll-proportion="0.49029127" vertical-offset="6511" max-vertical-offset="7335">
+        <state line="163" column="39" selection-start="7235" selection-end="7235" vertical-scroll-proportion="0.5044473" vertical-offset="2048" max-vertical-offset="3885">
           <folding />
         </state>
       </provider>

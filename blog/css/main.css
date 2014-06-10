@@ -205,6 +205,12 @@ a.icon-www:hover {
 
     width: 100%;
     height: 120px;
+
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 #header {
@@ -280,30 +286,47 @@ a.icon-www:hover {
     padding: 0;
     width: 100%;
     height: 0px;
-    display: none;
+    /*display: none;*/
     background: #ffffff;
+    border-bottom: 1px solid #cdcbcb;
+    overflow: hidden;
+    text-align: center;
 
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
-    -webkit-transition: 1s;
-    transition: 1s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
-#search input[type=text] {
+#search input[name=q] {
 
     margin: 0;
     padding: 0;
-    color: #aaaaaa;
-    width: 100%;
-    height: 100%;
+    color: #666;
+    width: 250px;
+    height: 120px;
     border: none;
-    border-bottom: 1px solid #efefef;
     outline: none;
-    text-align: center;
     font-family: Source Sans Pro, Sans-Serif, serif;
-    font-size: 60pt;
+    font-weight: 200;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 70px;
+    background: url('../images/icon-search-lrg.png') no-repeat 0px 30px;
 
+}
+
+[placeholder]::input-placeholder {
+    color: #efefef;
+}
+
+[placeholder]::-webkit-input-placeholder {
+    color: #efefef;
+}
+
+[placeholder]::-moz-input-placeholder {
+    color: #efefef;
 }
 
 [placeholder]:focus::input-placeholder {

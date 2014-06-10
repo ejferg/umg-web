@@ -36,7 +36,7 @@
           </div>
 
           <form id="search" action="/search" method="get">
-              <input type="text" name="q" id="q" placeholder="Search Nerd Talk" autocomplete="false" autocorrect="false">
+              <input type="text" name="q" id="q" placeholder="Search" autocomplete="false" autocorrect="false">
           </form>
 
       </div>
@@ -159,61 +159,87 @@
 
             var searchForm;
             var searchButton;
+            var searchField;
+
+            var SEARCH_EXPAND_INCR = 33;
+
+            var SEARCH_FIELD_MIN_WIDTH = 250;
+
+            var SEARCH_BAR_MIN_HEIGHT = 0;
+            var SEARCH_BAR_MAX_HEIGHT = 120;
+
+            var EXPANDER_MIN_HEIGHT = 120;
+            var EXPANDER_MAX_HEIGHT = 180;
 
             var init = function() {
 
                 searchForm = $('#search');
                 searchButton = $('#searchButton');
+                searchField = $('#q');
 
                 addListeners();
-                getRecentPosts();
+//                getRecentPosts();
             };
 
-            var getRecentPosts = function() {
-
-                var elements = [];
-                var url = 'http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=5';
-                var data = JSON.parse(recentPost);
-
-                $.each(data.posts, function(key, val) {
-
-                    console.log(val['regular-title']);
-                    elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
-                });
-
-                $( "<ul/>", {
-                    "class": "recent-post-list",
-                    html: elements.join('')
-                }).appendTo( ".recent-posts" );
-
-//                $.getJSON(url, function(data) {
-//                       console.log(data);
-//                    $.each(data, function(key, val) {
+//            var getRecentPosts = function() {
 //
+//                var elements = [];
+//                var url = 'http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=5';
+//                var data = JSON.parse(recentPost);
 //
-//                    });
+//                $.each(data.posts, function(key, val) {
+//
+//                    console.log(val['regular-title']);
+//                    elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
 //                });
+//
+//                $( "<ul/>", {
+//                    "class": "recent-post-list",
+//                    html: elements.join('')
+//                }).appendTo( ".recent-posts" );
+//
+////                $.getJSON(url, function(data) {
+////                       console.log(data);
+////                    $.each(data, function(key, val) {
+////
+////
+////                    });
+////                });
+//            };
+
+            var onSearchInputChange = function() {
+
+                var text = searchField.val();
+
+                var width = text.length * SEARCH_EXPAND_INCR;
+
+                if(width > SEARCH_FIELD_MIN_WIDTH) {
+
+                    searchField.width(width);
+                }
+
             };
 
             var onSearchButtonClicked = function() {
 
-                var isActive = searchForm.css("display") == 'none';
+                var isActive = searchForm.height() > 0;
 
                 if(isActive) {
 
-                    searchForm.show();
-                    searchForm.height(150);
+                    searchForm.height(SEARCH_BAR_MIN_HEIGHT);
+                    $('#expander').height(EXPANDER_MIN_HEIGHT);
 
                 } else {
 
-                    searchForm.hide();
-                    searchForm.height(0);
+                    searchForm.height(SEARCH_BAR_MAX_HEIGHT);
+                    $('#expander').height(EXPANDER_MAX_HEIGHT);
                 }
 
             };
 
             var addListeners = function() {
 
+                searchField.keypress($.proxy(onSearchInputChange, this));
                 searchButton.click($.proxy(onSearchButtonClicked, this));
             };
 
