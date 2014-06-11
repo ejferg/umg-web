@@ -20,204 +20,286 @@
     <link rel="alternate" type="application/rss+xml" href="{RSS}">
 
     <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/c7in6xm69/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/KXqn6z3qw/main.css" />
 
     <style>{CustomCSS}</style>
 </head>
-
 <body>
-      <div id="header">
 
-          <div class="menu left">
-              <ul>
-                  <li class="icon umg"></li>
-                  <li class="logo"></li>
-                  <li class="tag">nerd.talk</li>
-              </ul>
-          </div>
+<div id="top-container">
 
-          <div class="menu right clear">
+    <div id="header">
 
-              <ul>
-                  <li><a class="icon icon-social-state icon-facebook" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
-                  <li><a class="icon icon-social-state icon-twitter" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
-                  <li><a class="icon icon-social-state icon-gplus" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
-                  <li><a class="icon icon-www" href="http://ullisenmedia.com" target="_blank"></a></li>
-                  <li><a id="searchButton" class="icon search" href="#"></a></li>
-              </ul>
+        <a href="/" class="menu left">
 
-          </div>
+            <ul>
+                <li class="icon umg"></li>
+                <li class="logo"></li>
+                <li class="tag">nerd.talk</li>
+            </ul>
 
-      </div>
+        </a>
 
-      <div id="content">
+        <div class="menu right clear">
 
-          <form id="search" action="/search" method="get">
-              <input type="text" name="q" id="q" placeholder="Search Nerd Talk" autocomplete="false" autocorrect="false">
-          </form>
+            <ul>
+                <li><a class="icon icon-social-state icon-facebook" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
+                <li><a class="icon icon-social-state icon-twitter" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
+                <li><a class="icon icon-social-state icon-gplus" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
+                <li><a class="icon icon-www" href="http://ullisenmedia.com" target="_blank"></a></li>
+                <li><a id="searchButton" class="icon search" href="#"></a></li>
+            </ul>
 
-          <div id="posts">
+        </div>
 
-              {block:SearchPage}
-              {block:SearchResults}
-                <p class="search-results">{lang:Your search for SearchQuery returned SearchResultCount results 2}</p>
-              {block:SearchResults}
+    </div>
 
+    <form id="search" action="/search" method="get">
+        <input type="text" name="q" id="q" placeholder="Search" autocomplete="false" autocorrect="false">
+    </form>
 
+</div>
 
-              {block:NoSearchResults}
-              <div class="post">
-                  <div class="content">
-                      <p>{lang:No search results for SearchQuery 2}</p>
-                  </div>
-              </div>
-              {block:NoSearchResults}
-              {/block:SearchPage}
+<div id="expander"></div>
+
+<div id="content-container">
+
+    <div id="content">
+
+        {block:SearchPage}
+        {block:SearchResults}
+        <p class="search-results">{lang:Your search for SearchQuery returned SearchResultCount results 2}</p>
+        {block:SearchResults}
 
 
-              {block:Posts}
-              {block:Text}
-              <div class="post main">
 
-                  <div class="content content-text">
+        {block:NoSearchResults}
+        <div class="post">
+            <div class="content">
+                <p>{lang:No search results for SearchQuery 2}</p>
+            </div>
+        </div>
+        {block:NoSearchResults}
+        {/block:SearchPage}
 
-                      {block:Title}
-                      <div class="header">
-                          <div class="title clear">
-                              <h1><a href="{Permalink}">{Title}</a></h1>
-                              <div class="icon-content-type comments"><span class="count">100</span></div>
-                          </div>
+        <div id="main-content" class="column">
 
-                          <div class="line-through"></div>
+            {block:Posts}
+            {block:Text}
+            <div class="post post-text">
+                <div class="header">
+                    <div class="title clear">
+                        <h1><a href="{Permalink}" class="link">{Title}</a></h1>
+                        <div class="icon-content-type comments"><span class="count"><a href="{Permalink}" class="link">0</a></span></div>
+                    </div>
 
-                      </div>
-                      {/block:Title}
+                    <a href="{Permalink}" class="line-through"></a>
 
-                      <h2>
-                          <span><a href="#">Code:</a> Dart is so damn cool.</span>
-                      </h2>
+                </div>
 
-                      <div class="line dotted"></div>
+                <h2>
+                    <span><a href="#">Code:</a> Dart is so damn cool.</span>
+                </h2>
 
-                      <p>{Body}</p>
+                <div class="line dotted"></div>
 
-                      <div class="footer">
+                <p>{Body}</p>
 
-                          <div class="read-more"><span>Read: <a href="#">{Title}</a></span></div>
-                          <div class="menu social clear">
-                              <ul>
-                                  <li><a class="icon icon-facebook-nobg" href="http://www.facebook.com/ullisenmedia" target="_blank"></a></li>
-                                  <li><a class="icon icon-twitter-nobg" href="http://twitter.com/ullisenmedia" target="_blank"></a></li>
-                                  <li><a class="icon icon-gplus-nobg" href="http://plus.google.com/+ullisenmedia" target="_blank"></a></li>
-                              </ul>
-                          </div>
+                <div class="footer clear">
 
-                      </div>
-                  </div>
+                    <div class="read-more"><span>Read: <a href="{Permalink}">More {Title}</a></span></div>
+                    <div class="menu social clear">
+                        <ul>
+                            <li><a class="icon icon-facebook-nobg fb-share" href="#" data-url="http://www.facebook.com/sharer.php?u={Permalink}"></a></li>
+                            <li><a class="icon icon-twitter-nobg twitter-share" href="#" data-url="https://twitter.com/share??original_referer={Permalink}&source=tweetbutton&text={Title}&url={Permalink}&via=ullisenmedian"></a></li>
+                            <li><a class="icon icon-gplus-nobg gplus-share" href="#" data-url="https://plus.google.com/share?url={Permalink}"></a></li>
+                        </ul>
+                    </div>
 
-              </div>
-              {/block:Text}
-              {/block:Posts}
+                </div>
+            </div>
+            {/block:Text}
+            {/block:Posts}
+
+            {block:Pagination}
+            <div id="paging-content">
+
+                {block:NextPage}
+                <a href="{NextPage}" class="page-btn prev uppercase"><span>{lang:Older entries}</span></a>
+                {/block:NextPage}
+
+                {block:PreviousPage}
+                <a href="{PreviousPage}" class="page-btn next uppercase"><span>{lang:Newer Entries}</span></a>
+                {/block:PreviousPage}
+
+            </div>
+            {/block:Pagination}
 
 
-              <div class="post sub">
+            {block:PermalinkPagination}
+            <div id="paging-content">
 
-                  <div class="about">
-                      <h3>What is <span class="label">nerd.talk</span> ?</h3>
-                      <p>
-                          Aenean venenatis suscipit hendrerit. Aliquam sollicitudin felis sit amet lorem varius, vitae aliquet sem interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </p>
-                  </div>
+                {block:NextPost}
+                <a href="{NextPost}" class="page-btn next uppercase"><span>{lang:Next post}</span></a>
+                {/block:NextPost}
 
-                  <div class="recent-posts">
-                      <h3>Recent Posts</h3>
-                  </div>
+                {block:PreviousPost}
+                <a href="{PreviousPost}" class="page-btn prev uppercase"><span>{lang:Previous Post}</span></a>
+                {/block:PreviousPost}
 
-                  <div class="links">
-                      <h3>Links</h3>
-                      <ul>
-                          <li><a href="/archive">Archive</a></li>
-                          <li><a href="/rss">Rss</a></li>
-                      </ul>
-                  </div>
+            </div>
+            {/block:PermalinkPagination}
 
-              </div>
-          </div>
+        </div>
 
-      </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>
-        // Get recent posts: http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=10
 
-        $('document').ready(function() {
+        <div id="side-content" class="column">
 
-            var searchForm;
-            var searchButton;
+            {block:Description}
+            <div class="about">
+                <h3>What is <span class="label">nerd.talk</span> ?</h3>
+                <p>{Description}</p>
+            </div>
+            {/block:Description}
 
-            var init = function() {
+            <div class="recent-posts">
+                <h3>Recent Posts</h3>
+            </div>
 
-                searchForm = $('#search');
-                searchButton = $('#searchButton');
+            <div class="links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="/archive">Archive</a></li>
+                    <li><a href="/rss">Rss</a></li>
+                </ul>
+            </div>
 
-                addListeners();
-//                getRecentPosts();
-            };
+        </div>
+    </div>
 
-            var getRecentPosts = function() {
+</div>
 
-                var elements = [];
-                var url = 'http://ullisenmedia.tumblr.com/api/read/json?callback=jsonp1402115621416&filter=text&num=5';
-                var data = JSON.parse(recentPost);
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
 
-                $.each(data.posts, function(key, val) {
+    $('document').ready(function() {
 
-                    console.log(val['regular-title']);
-                    elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
-                });
+        var searchForm;
+        var searchButton;
+        var searchField;
 
-                $( "<ul/>", {
-                    "class": "recent-post-list",
-                    html: elements.join('')
-                }).appendTo( ".recent-posts" );
+        var SEARCH_EXPAND_INCR = 34;
+        var SEARCH_FIELD_MIN_WIDTH = 250;
 
-//                $.getJSON(url, function(data) {
-//                       console.log(data);
-//                    $.each(data, function(key, val) {
-//
-//
-//                    });
-//                });
-            };
+        var SEARCH_BAR_MIN_HEIGHT = 0;
+        var SEARCH_BAR_MAX_HEIGHT = 120;
 
-            var onSearchButtonClicked = function() {
+        var EXPANDER_MIN_HEIGHT = 120;
+        var EXPANDER_MAX_HEIGHT = 180;
 
-                var isActive = searchForm.css("display") == 'none';
+        var SHARE_WINDOW_WIDTH = 'width=550,height=266';
 
-                if(isActive) {
+        var init = function() {
 
-                    searchForm.show();
-                    searchForm.height(150);
+            searchForm = $('#search');
+            searchButton = $('#searchButton');
+            searchField = $('#q');
 
-                } else {
+            addListeners();
+            getRecentPosts();
+        };
 
-                    searchForm.hide();
-                    searchForm.height(0);
+        var getRecentPosts = function() {
+
+            var url = 'http://nerdtalk.ullisenmedia.com/api/read/json?callback=?&filter=text&num=5';
+
+//                var data = JSON.parse(recentPost);
+//                buildRecentPosts(data.posts);
+
+            $.getJSON(url, function(data) {
+
+                if(data && data.hasOwnProperty('posts')) {
+
+                    buildRecentPosts(data.posts);
                 }
 
-            };
+            });
+        };
 
-            var addListeners = function() {
+        var buildRecentPosts = function(posts) {
 
-                searchButton.click($.proxy(onSearchButtonClicked, this));
-            };
+            var elements = [];
 
-            var recentPost = '{"tumblelog":{"title":"Untitled","description":"","name":"ullisenmedia","timezone":"US/Eastern","cname":false,"feeds":[]},"posts-start":0,"posts-total":"2","posts-type":false,"posts":[{"id":"88120994799","url":"http://ullisenmedia.tumblr.com/post/88120994799","url-with-slug":"http://ullisenmedia.tumblr.com/post/88120994799/tags","type":"regular","date-gmt":"2014-06-07 23:30:12 GMT","date":"Sat, 07 Jun 2014 19:30:12","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402183812,"format":"html","reblog-key":"CNwC8HJp","slug":"tags","regular-title":"Tags","regular-body":"Tags Test","tags":["apple","ios","iphone","objectivec","c++","javascript","flash","adobe","dartlang","mac","microsoft","sony","lg","nexus tablet","nexus"]},{"id":"87947059274","url":"http://ullisenmedia.tumblr.com/post/87947059274","url-with-slug":"http://ullisenmedia.tumblr.com/post/87947059274/google-dart","type":"regular","date-gmt":"2014-06-06 01:56:49 GMT","date":"Thu, 05 Jun 2014 21:56:49","bookmarklet":0,"mobile":0,"feed-item":"","from-feed-id":0,"unix-timestamp":1402019809,"format":"html","reblog-key":"Vs2ScvwX","slug":"google-dart","regular-title":"Google Dart","regular-body":"Dart is an open-source Web programming language developed by Google. It was unveiled at the GOTO conference in Aarhus, October 10–12, 2011.[3] The goal of Dart is “ultimately to replace JavaScript as the lingua franca of web development on the open web platform”.[4] Until then, in order to run in mainstream browsers, Dart relies on a source-to-source compilerto JavaScript. For performance reasons Google engineers solved their JavaScript issues by evolving Dart rather than extending JavaScript.[4] Dart enables Google to build more full-featured complexity into client-side Web applications"}]}';
+            $.each(posts, function(key, val) {
 
-            init();
-        });
+                console.log(val['regular-title']);
+                elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
+            });
 
-    </script>
+            $( "<ul/>", {
+                "class": "recent-post-list",
+                html: elements.join('')
+            }).appendTo( ".recent-posts" );
+        };
+
+        var onSearchInputChange = function() {
+
+            var text = searchField.val();
+
+            var width = text.length * SEARCH_EXPAND_INCR;
+
+            if(width > SEARCH_FIELD_MIN_WIDTH) {
+
+                searchField.width(width);
+            }
+
+        };
+
+        var onSearchButtonClicked = function() {
+
+            var isActive = searchForm.height() > 0;
+
+            if(isActive) {
+
+                searchForm.height(SEARCH_BAR_MIN_HEIGHT);
+                $('#expander').height(EXPANDER_MIN_HEIGHT);
+
+            } else {
+
+                searchForm.height(SEARCH_BAR_MAX_HEIGHT);
+                $('#expander').height(EXPANDER_MAX_HEIGHT);
+            }
+
+        };
+
+        var onShareButtonClicked = function(event) {
+
+            var data = $(event.currentTarget).data();
+
+            if(data.hasOwnProperty('url')) {
+
+                window.open(data.url,'', SHARE_WINDOW_WIDTH);
+            }
+
+            return false;
+        };
+
+        var addListeners = function() {
+
+            searchButton.click($.proxy(onSearchButtonClicked, this));
+            searchForm.focusout($.proxy(onSearchButtonClicked, this))
+            searchField.keypress($.proxy(onSearchInputChange, this));
+
+            $('.fb-share').click($.proxy(onShareButtonClicked, this));
+            $('.twitter-share').click($.proxy(onShareButtonClicked, this));
+            $('.gplus-share').click($.proxy(onShareButtonClicked, this));
+        };
+
+        init();
+    });
+
+</script>
 
 </body>
 </html>
