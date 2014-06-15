@@ -588,4 +588,14 @@ a.page-btn:hover {
     background: url("http://static.tumblr.com/h4hpg15/QVVn6yyxj/next_arrow_pink.png") no-repeat right top;
 }
 
+#comment-content {
+
+    margin-top: 100px;
+}
+
+.read_more_container {
+
+    display: none;
+}
+
 

@@ -90,7 +90,7 @@
                 <div class="header">
                     <div class="title clear">
                         <h1><a href="{Permalink}" class="link">{Title}</a></h1>
-                        <div class="icon-content-type comments"><span class="count"><a href="{Permalink}" class="link">0</a></span></div>
+                        <div class="icon-content-type comments"><span class="count"><a href="{Permalink}#disqus_thread" class="link dsq-comment-count">0</a></span></div>
                     </div>
 
                     <a href="{Permalink}" class="line-through"></a>
@@ -150,6 +150,16 @@
             </div>
             {/block:PermalinkPagination}
 
+            {block:Permalink}
+            <div id="comment-content">
+                {block:IfDisqusShortname}
+                <div id="disqus_thread"></div>
+                <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+                <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+                {/block:IfDisqusShortname}
+            </div>
+            {/block:Permalink}
+
         </div>
 
 
@@ -181,7 +191,8 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
+
+<script type="text/javascript">
 
     $('document').ready(function() {
 
@@ -298,6 +309,17 @@
 
         init();
     });
+
+
+    var disqus_shortname = '{text:Disqus Shortname}';
+
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+
+    }());
 
 </script>
 
