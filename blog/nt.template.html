@@ -20,7 +20,7 @@
     <link rel="alternate" type="application/rss+xml" href="{RSS}">
 
     <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/KXqn6z3qw/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/AjUn77aio/main.css" />
 
     <style>{CustomCSS}</style>
 </head>
@@ -97,14 +97,43 @@
 
                 </div>
 
-                <h2>
-                    <span><a href="#">Code:</a> Dart is so damn cool.</span>
-                </h2>
+                <div class="sub-header clear">
+
+                    <div class="pull-left">
+                        <h2>
+                                  <span>By:&nbsp;<a href="{PostAuthorURL}" target="_blank">{PostAuthorName}</a>&nbsp;&nbsp;&#149;&nbsp;&nbsp;
+                                {block:IndexPage} 
+                                {block:Date} 
+                                {TimeAgo}
+                                {/block:Date}
+                                {/block:IndexPage} 
+                                 
+                                {block:PermalinkPage} 
+                                {block:Date} 
+                                {ShortMonth} {DayOfMonthWithZero}, {Year}
+                                {/block:Date}
+                                {/block:PermalinkPage}     
+                                  </span>
+                        </h2>
+                    </div>
+
+                    {block:PermalinkPage}
+                    <div class="menu social pull-right">
+                        <ul>
+                            <li><a class="icon icon-facebook-nobg fb-share" href="#"></a></li>
+                            <li><a class="icon icon-twitter-nobg twitter-share" href="#"></a></li>
+                            <li><a class="icon icon-gplus-nobg gplus-share" href="#"></a></li>
+                        </ul>
+                    </div>
+                    {/block:PermalinkPage}
+                </div>
+
 
                 <div class="line dotted"></div>
 
                 <p>{Body}</p>
 
+                {block:IndexPage}
                 <div class="footer clear">
 
                     <div class="read-more"><span>Read: <a href="{Permalink}">More {Title}</a></span></div>
@@ -117,6 +146,7 @@
                     </div>
 
                 </div>
+                {/block:IndexPage}
             </div>
             {/block:Text}
             {/block:Posts}

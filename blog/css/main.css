@@ -38,16 +38,10 @@ body {
     transition-timing-function: ease-out;
 }
 
-.left {
-
-    left: -40px;
-}
-
 .line {
 
     border-top: 1px solid #242424;
     height: 1;
-    width: 60%;
 }
 
 .dotted {
@@ -62,10 +56,14 @@ a:link, a:visited, a:hover, a:active {
 
 a:hover {text-decoration: underline;}
 
+.capitalize {text-transform: capitalize}
 .uppercase {text-transform:uppercase;}
 .lowercase {text-transform:lowercase;}
 
+.left { left: -40px;}
 .right {right: 0;}
+.pull-left { float: left;}
+.pull-right { float: right;}
 
 .clear:before,
 .clear:after {
@@ -283,6 +281,37 @@ a.icon-www:hover {
     background-color: #313131;
 }
 
+.sub-header {
+    width: 100%;
+    margin-top: -95px;
+    margin: -95px 0 30px 0px;
+
+}
+
+.sub-header div {
+
+    display: inline;
+}
+
+.sub-header h2 {
+
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.sub-header .date {
+
+    /*margin-left: 10px;*/
+}
+
+.sub-header .menu {
+
+    /*margin-top: -15px;*/
+}
+
 #search {
 
     padding: 0;
@@ -375,7 +404,7 @@ a.icon-www:hover {
 
 #main-content {
 
-    max-width: 720px;
+    width: 720px;
     /*margin-left: 60px;*/
     float: left;
 }
@@ -410,6 +439,11 @@ a.icon-www:hover {
     text-decoration: underline;
 }
 
+#main-content .post .line {
+
+    /*margin-top: -20px;*/
+    margin-bottom: 30px;
+}
 #main-content .post .count a:hover {
 
     text-decoration: underline;
@@ -427,13 +461,6 @@ a.icon-www:hover {
     font-weight: 400;
     letter-spacing: -2px;
     float: left;
-}
-
-#main-content .post-text h2 {
-
-    margin-top: -95px;
-    font-weight: 400;
-    font-size: 26px;
 }
 
 #main-content .post-text img {
@@ -474,25 +501,25 @@ a.icon-www:hover {
     float: left;
 }
 
-#main-content .footer .social {
+#main-content .social {
 
     height: 33px;
     border-left: 1px solid #ffffff;
     float: right;
 }
 
-#main-content .footer .social ul {
+#main-content .social ul {
 
     margin: 0;
     padding: 0;
 }
 
-#main-content .footer .social li {
+#main-content .social li {
 
     height: 100%;
 }
 
-#main-content .footer .social .icon {
+#main-content .social .icon {
 
     width: 30px;
     height: 100%;
