@@ -19,8 +19,11 @@
     <link rel="apple-touch-icon-precomposed" href="{PortraitURL-128}">
     <link rel="alternate" type="application/rss+xml" href="{RSS}">
 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,200italic" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic" />
+
     <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/AjUn77aio/main.css" />
+    <link rel="stylesheet" type="text/css" href="http://static.tumblr.com/h4hpg15/xemn77ysn/main.min.css" />
 
     <style>{CustomCSS}</style>
 </head>
@@ -120,9 +123,9 @@
                     {block:PermalinkPage}
                     <div class="menu social pull-right">
                         <ul>
-                            <li><a class="icon icon-facebook-nobg fb-share" href="#"></a></li>
-                            <li><a class="icon icon-twitter-nobg twitter-share" href="#"></a></li>
-                            <li><a class="icon icon-gplus-nobg gplus-share" href="#"></a></li>
+                            <li><a class="icon icon-facebook-nobg fb-share" href="#" data-url="http://www.facebook.com/sharer.php?u={Permalink}"></a></li>
+                            <li><a class="icon icon-twitter-nobg twitter-share" href="#" data-url="https://twitter.com/share??original_referer={Permalink}&source=tweetbutton&text={Title}&url={Permalink}&via=ullisenmedian"></a></li>
+                            <li><a class="icon icon-gplus-nobg gplus-share" href="#" data-url="https://plus.google.com/share?url={Permalink}"></a></li>
                         </ul>
                     </div>
                     {/block:PermalinkPage}
@@ -136,7 +139,9 @@
                 {block:IndexPage}
                 <div class="footer clear">
 
+                    {block:More}
                     <div class="read-more"><span>Read: <a href="{Permalink}">More {Title}</a></span></div>
+                    {/block:More}
                     <div class="menu social clear">
                         <ul>
                             <li><a class="icon icon-facebook-nobg fb-share" href="#" data-url="http://www.facebook.com/sharer.php?u={Permalink}"></a></li>
@@ -221,130 +226,19 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+<script src="http://static.tumblr.com/h4hpg15/Bpen78615/main.js"></script>
 
 <script type="text/javascript">
 
-    $('document').ready(function() {
-
-        var searchForm;
-        var searchButton;
-        var searchField;
-
-        var SEARCH_EXPAND_INCR = 34;
-        var SEARCH_FIELD_MIN_WIDTH = 250;
-
-        var SEARCH_BAR_MIN_HEIGHT = 0;
-        var SEARCH_BAR_MAX_HEIGHT = 120;
-
-        var EXPANDER_MIN_HEIGHT = 120;
-        var EXPANDER_MAX_HEIGHT = 180;
-
-        var SHARE_WINDOW_WIDTH = 'width=550,height=266';
-
-        var init = function() {
-
-            searchForm = $('#search');
-            searchButton = $('#searchButton');
-            searchField = $('#q');
-
-            addListeners();
-            getRecentPosts();
-        };
-
-        var getRecentPosts = function() {
-
-            var url = 'http://nerdtalk.ullisenmedia.com/api/read/json?callback=?&filter=text&num=5';
-
-//                var data = JSON.parse(recentPost);
-//                buildRecentPosts(data.posts);
-
-            $.getJSON(url, function(data) {
-
-                if(data && data.hasOwnProperty('posts')) {
-
-                    buildRecentPosts(data.posts);
-                }
-
-            });
-        };
-
-        var buildRecentPosts = function(posts) {
-
-            var elements = [];
-
-            $.each(posts, function(key, val) {
-
-                console.log(val['regular-title']);
-                elements.push('<li><a href="'+ val.url +'">'+ val['regular-title'] +'</a></li>');
-            });
-
-            $( "<ul/>", {
-                "class": "recent-post-list",
-                html: elements.join('')
-            }).appendTo( ".recent-posts" );
-        };
-
-        var onSearchInputChange = function() {
-
-            var text = searchField.val();
-
-            var width = text.length * SEARCH_EXPAND_INCR;
-
-            if(width > SEARCH_FIELD_MIN_WIDTH) {
-
-                searchField.width(width);
-            }
-
-        };
-
-        var onSearchButtonClicked = function() {
-
-            var isActive = searchForm.height() > 0;
-
-            if(isActive) {
-
-                searchForm.height(SEARCH_BAR_MIN_HEIGHT);
-                $('#expander').height(EXPANDER_MIN_HEIGHT);
-
-            } else {
-
-                searchForm.height(SEARCH_BAR_MAX_HEIGHT);
-                $('#expander').height(EXPANDER_MAX_HEIGHT);
-            }
-
-        };
-
-        var onShareButtonClicked = function(event) {
-
-            var data = $(event.currentTarget).data();
-
-            if(data.hasOwnProperty('url')) {
-
-                window.open(data.url,'', SHARE_WINDOW_WIDTH);
-            }
-
-            return false;
-        };
-
-        var addListeners = function() {
-
-            searchButton.click($.proxy(onSearchButtonClicked, this));
-            searchForm.focusout($.proxy(onSearchButtonClicked, this))
-            searchField.keypress($.proxy(onSearchInputChange, this));
-
-            $('.fb-share').click($.proxy(onShareButtonClicked, this));
-            $('.twitter-share').click($.proxy(onShareButtonClicked, this));
-            $('.gplus-share').click($.proxy(onShareButtonClicked, this));
-        };
-
-        init();
-    });
-
+    var DEFAULT_LIMIT = 5;
+    var TOTAL_PAGES = {TotalPages};
 
     var disqus_shortname = '{text:Disqus Shortname}';
 
     (function () {
-        var s = document.createElement('script'); s.async = true;
+        var s = document.createElement('script');
+        s.async = true;
         s.type = 'text/javascript';
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
