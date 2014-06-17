@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="604a0b04-3f8e-404c-a3c2-adc9d896da30" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/css/main.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/js/main.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/index.html" afterPath="$PROJECT_DIR$/blog/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/main.css" afterPath="$PROJECT_DIR$/blog/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/nt.template.html" afterPath="$PROJECT_DIR$/blog/nt.template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/css/main.min.css" afterPath="$PROJECT_DIR$/blog/css/main.min.css" />
     </list>
     <ignored path="umg-web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +28,7 @@
             <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/blog/test.html">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state line="175" column="141" selection-start="5321" selection-end="5321" vertical-scroll-proportion="0.008905852" vertical-offset="2618" max-vertical-offset="7710">
+                  <state line="175" column="141" selection-start="5321" selection-end="5321" vertical-scroll-proportion="0.008997429" vertical-offset="2618" max-vertical-offset="7710">
                     <folding />
                   </state>
                 </provider>
@@ -53,7 +48,7 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="410" column="25" selection-start="0" selection-end="10045" vertical-scroll-proportion="-11.115385" vertical-offset="5861" max-vertical-offset="9555">
+            <state line="297" column="27" selection-start="0" selection-end="10045" vertical-scroll-proportion="-7.7954545" vertical-offset="4112" max-vertical-offset="9555">
               <folding />
             </state>
           </provider>
@@ -80,7 +75,7 @@
       <file leaf-file-name="main.min.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="7497" selection-start="7497" selection-end="7497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="811">
+            <state line="0" column="7330" selection-start="7330" selection-end="7330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
               <folding />
             </state>
           </provider>
@@ -155,7 +150,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1920" />
-    <option name="height" value="970" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -502,7 +497,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="970" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="940" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -818,23 +813,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/test.html">
+    <entry file="file://$PROJECT_DIR$/blog/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="141" selection-start="5321" selection-end="5321" vertical-scroll-proportion="0.008905852" vertical-offset="2618" max-vertical-offset="7710">
+        <state line="297" column="27" selection-start="0" selection-end="10045" vertical-scroll-proportion="-7.7954545" vertical-offset="4112" max-vertical-offset="9555">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/css/main.css">
+    <entry file="file://$PROJECT_DIR$/blog/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="410" column="25" selection-start="0" selection-end="10045" vertical-scroll-proportion="-11.115385" vertical-offset="5861" max-vertical-offset="9555">
+        <state line="175" column="141" selection-start="5321" selection-end="5321" vertical-scroll-proportion="0.008997429" vertical-offset="2618" max-vertical-offset="7710">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7497" selection-start="7497" selection-end="7497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="811">
+        <state line="0" column="7330" selection-start="7330" selection-end="7330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="781">
           <folding />
         </state>
       </provider>
