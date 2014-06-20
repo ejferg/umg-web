@@ -1,0 +1,283 @@
+/* COLORS
+   pink: #ff0099;
+   mid-grey: #1f1f1f rgba(31, 31, 31, 1.0);
+   dark-grey: #131313 rgba(19, 19, 19, 1.0);
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Source Sans Pro', Sans-Serif, serif;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: 200;
+
+}
+
+ul { list-style-type: none; }
+ul, li, input {
+
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+a, a:link, a:visited, a:active {
+    color: #ff0099;
+    text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
+
+* {
+
+    -webkit-transition-property: color,background;
+    -webkit-transition-duration: .1s,.3s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-property: color,background;
+    -moz-transition-duration: .1s,.3s;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-property: color,background;
+    -o-transition-duration: .1s,.3s;
+    -o-transition-timing-function: ease-out;
+    transition-property: color,background;
+    transition-duration: .1s,.3s;
+    transition-timing-function: ease-out;
+}
+
+.icon {
+
+    width: 60px;
+    height: 60px;
+}
+
+a.icon {
+
+    display: block;
+}
+
+.icon-content-type {
+
+    width: 46px;
+    height: 42px;
+    background: url("http://static.tumblr.com/h4hpg15/Efsn6xlev/msg-bubble.png") no-repeat left top;
+    position: relative;
+}
+
+.icon-social-state {
+
+    opacity: .3;
+}
+
+a.icon-social-state:hover {
+
+    opacity: 1.0;
+}
+
+.icon-facebook {
+
+    background: url('http://static.tumblr.com/h4hpg15/penn6xl5z/icon-fb.png') no-repeat center;
+}
+
+a.icon-facebook:hover {
+
+    background-color: #3B5998;
+}
+
+.icon-twitter {
+
+    background: url('http://static.tumblr.com/h4hpg15/SBIn6xlbr/icon-twitter.png') no-repeat center;
+}
+
+a.icon-twitter:hover {
+
+    background-color: #00aced;
+}
+
+
+.icon-gplus {
+
+    background: url('http://static.tumblr.com/h4hpg15/7fqn6xl8u/icon-gplus.png') no-repeat center;
+}
+
+a.icon-gplus:hover {
+
+    background-color: #dd4b39;
+}
+
+.column {
+
+    /*display: inline-block;*/
+    display: table-cell;
+    /*float: left;*/
+    overflow: hidden;
+}
+
+.menu {
+
+    width: 100%;
+}
+
+.menu-vertical ul li {
+
+    display: table;
+}
+
+.menu-horizontal ul li {
+
+    vertical-align:top;
+    white-space: nowrap;
+    display: inline-table;
+    position: relative;
+    overflow: hidden;
+}
+
+#content-container {
+
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    display: table;
+}
+
+#side-content {
+
+    width: 400px;
+    height: 100%;
+    background: url("../img/blog-sidebar.png") #000000 no-repeat top left;
+}
+
+#side-content .spacer {
+
+   width: 100%;
+   height: 438px;
+}
+
+
+#side-content .menu-links ul li {
+
+    width: 100%;
+    height: 60px;
+
+}
+
+#side-content .menu-links ul li a {
+
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 24px;
+    display: table-cell;
+    padding-left: 20px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(255, 0, 153, 0.4);
+}
+
+#side-content .menu-links ul li:nth-child(2) a {
+
+    background-color: rgba(255, 0, 153, 0.6);
+}
+
+#side-content .menu-links ul li:nth-child(3) a {
+
+    background-color: rgba(255, 0,153, 0.8);
+}
+
+#side-content .menu-social ul {
+
+   background-color: rgb(31, 31, 31);
+}
+
+#side-content .menu-social ul {
+
+    background-color: rgb(31, 31, 31);
+}
+
+#side-content .menu-social ul li {
+
+    width: 60px;
+    height: 60px;
+}
+
+
+#side-content .menu-social ul li:last-child {
+
+    width: 210px;
+    background-color: inherit;
+}
+
+#side-content .menu-social ul li:last-child a {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#side-content .menu-social ul li:nth-last-child(1) a, a:link, a:visited, a:active {
+
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 0, 153, 0.0);
+}
+
+#side-content .menu-social ul li:nth-last-child(1) a:hover {
+
+    color: rgba(255, 255, 255, 1.0);
+    background-color: rgba(255, 0, 153, 1.0);
+}
+
+
+#side-content .menu-social ul li a {
+
+    width: 100%;
+    height: 100%;
+}
+
+
+#side-content .search {
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#side-content .search input[name=q] {
+
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 0 50px 0 20px;
+    font-size: 24px;
+    background: url("../img/icon-search-sm.png") rgb(19, 19, 19) no-repeat 360px;/
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#main-content {
+
+    width: 100%;
+    height: 100%;
+
+    background-color: gray;
+}
