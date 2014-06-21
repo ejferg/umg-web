@@ -395,3 +395,24 @@ a.icon-gplus:hover {
     position: absolute;
 
 }
+
+#posts .post-state-active {
+
+    color: #000;
+    opacity: 1.0;
+    background-color: #ffffff !important;
+}
+
+#posts .post-state-active .image-mask img {
+
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    filter: grayscale(0%);
+
+    opacity: 1.0;
+}
+
+#posts .post-state-active .content p {
+
+    opacity: 1.0;
+}
