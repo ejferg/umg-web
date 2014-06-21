@@ -316,6 +316,7 @@ a.icon-gplus:hover {
     display: -moz-inline-stack;
     display: inline-table;
     vertical-align: top;
+    position: relative;
 }
 
 #posts .post:nth-child(1) {
@@ -323,12 +324,25 @@ a.icon-gplus:hover {
 }
 
 #posts .post:nth-child(2) {
-    background-color: #101010;
+    background-color: #121212;
 }
 
 #posts .post:nth-child(3) {
-    background-color: #121212;
+    background-color: #171717;
 }
+
+#posts .post:nth-child(4) {
+    background-color: #1a1a1a;
+}
+
+#posts .post:nth-child(5) {
+    background-color: #1f1f1f;
+}
+
+#posts .post:nth-child(6) {
+    background-color: #232323;
+}
+
 
 #posts .post .image-mask {
 
@@ -358,8 +372,26 @@ a.icon-gplus:hover {
     white-space: normal;
 }
 
+#posts .post .content .time {
+
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+}
+
 #posts .post .content p {
 
     font-size: 16px;
     opacity: 0.5;
+}
+
+#posts .post .comments {
+
+    color: #ff0099;
+    font-size: 60px;
+
+    right: 30px;
+    bottom: 20px;
+    position: absolute;
+
 }
