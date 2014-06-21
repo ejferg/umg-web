@@ -92,35 +92,71 @@ a.icon-social-state:hover {
     opacity: 1.0;
 }
 
-.icon-facebook {
+.icon-facebook-white {
 
     background: url('http://static.tumblr.com/h4hpg15/penn6xl5z/icon-fb.png') no-repeat center;
 }
 
-a.icon-facebook:hover {
+a.icon-facebook-state-bgcolor:hover {
 
     background-color: #3B5998;
 }
 
-.icon-twitter {
+.icon-twitter-white {
 
     background: url('http://static.tumblr.com/h4hpg15/SBIn6xlbr/icon-twitter.png') no-repeat center;
 }
 
-a.icon-twitter:hover {
+a.icon-twitter-state-bgcolor:hover {
 
     background-color: #00aced;
 }
 
 
-.icon-gplus {
+.icon-gplus-white {
 
     background: url('http://static.tumblr.com/h4hpg15/7fqn6xl8u/icon-gplus.png') no-repeat center;
 }
 
-a.icon-gplus:hover {
+a.icon-gplus-state-bgcolor:hover {
 
     background-color: #dd4b39;
+}
+
+.icon-facebook-blk {
+
+    background: url('http://static.tumblr.com/h4hpg15/3Qwn6xl4a/icon-fb-blk.png') no-repeat center;
+}
+
+.icon-twitter-blk {
+
+    background: url('http://static.tumblr.com/h4hpg15/gA3n6xla5/icon-twitter-blk.png') no-repeat center;
+}
+
+
+.icon-twitter-blk {
+
+    background: url('http://static.tumblr.com/h4hpg15/gA3n6xla5/icon-twitter-blk.png') no-repeat center;
+}
+
+.icon-gplus-blk {
+
+    background: url('http://static.tumblr.com/h4hpg15/Hvwn6xl7n/icon-gplus-blk.png') no-repeat center;
+}
+
+a.icon-facebook-state-iconcolor:hover {
+
+    background: url('http://static.tumblr.com/h4hpg15/Nl0n6xl6s/icon-fb-color.png') no-repeat center;
+}
+
+a.icon-twitter-state-iconcolor:hover {
+
+    background: url('http://static.tumblr.com/h4hpg15/vxAn6xlav/icon-twitter-color.png') no-repeat center;;
+}
+
+a.icon-gplus-state-iconcolor:hover {
+
+    background: url('http://static.tumblr.com/h4hpg15/Xn9n6xl8h/icon-gplus-color.png') no-repeat center;
 }
 
 .column {
@@ -371,6 +407,13 @@ a.icon-gplus:hover {
     opacity: 0.4;
 }
 
+#posts .post .menu {
+
+    bottom: 20px;
+    left: 0px;
+    position: absolute;
+}
+
 #posts .post .content {
 
     max-width: 500px;
@@ -379,19 +422,20 @@ a.icon-gplus:hover {
     white-space: normal;
 }
 
+#posts .post .content p {
+
+    font-size: 16px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
 #posts .post .content .time {
 
     width: 100%;
     text-align: right;
     font-size: 14px;
     font-weight: 200;
-}
-
-#posts .post .content p {
-
-    font-size: 16px;
-    font-weight: 200;
-    opacity: 0.5;
+    font-style: italic;
 }
 
 #posts .post .comments {
