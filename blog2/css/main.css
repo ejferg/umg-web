@@ -32,6 +32,14 @@ input {
     outline: none;
 }
 
+h2 {
+
+    font-weight: 200;
+    font-size: 44px;
+    text-transform: lowercase;
+    font-family: font-family: 'Source Sans Pro', Sans-Serif, serif;
+}
+
 a, a:link, a:visited, a:active {
     color: #ff0099;
     text-decoration: none;
@@ -116,10 +124,9 @@ a.icon-gplus:hover {
 }
 
 .column {
-
-    /*display: inline-block;*/
-    display: table-cell;
-    /*float: left;*/
+    display: -moz-inline-stack;
+    display: inline-table;
+    vertical-align: top;
     overflow: hidden;
 }
 
@@ -135,10 +142,9 @@ a.icon-gplus:hover {
 
 .menu-horizontal ul li {
 
-    vertical-align:top;
     white-space: nowrap;
-    display: inline-table;
-    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
     overflow: hidden;
 }
 
@@ -148,6 +154,7 @@ a.icon-gplus:hover {
     height: 100%;
     white-space: nowrap;
     display: table;
+    font-size: 0;
 }
 
 #side-content {
@@ -159,8 +166,8 @@ a.icon-gplus:hover {
 
 #side-content .spacer {
 
-   width: 100%;
-   height: 438px;
+    width: 100%;
+    height: 438px;
 }
 
 
@@ -196,8 +203,8 @@ a.icon-gplus:hover {
 }
 
 #side-content .menu-social ul {
-
-   background-color: rgb(31, 31, 31);
+    font-size: 0;
+    background-color: rgb(31, 31, 31);
 }
 
 #side-content .menu-social ul {
@@ -214,14 +221,27 @@ a.icon-gplus:hover {
 
 #side-content .menu-social ul li:last-child {
 
-    width: 210px;
+    width: 220px;
     background-color: inherit;
+}
+
+#side-content .menu-social ul li:last-child div {
+
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#side-content .menu-social ul li a {
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #side-content .menu-social ul li:last-child a {
 
-    width: 100%;
-    height: 100%;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
@@ -242,21 +262,16 @@ a.icon-gplus:hover {
 }
 
 
-#side-content .menu-social ul li a {
-
-    width: 100%;
-    height: 100%;
-}
-
-
 #side-content .search {
 
     padding: 0;
     margin: 0;
     width: 100%;
     height: 60px;
+    display: -moz-inline-stack;
     display: inline-block;
-    white-space: nowrap;
+    vertical-align: top;
+    /*white-space: nowrap;*/
 }
 
 #side-content .search input[name=q] {
@@ -279,5 +294,72 @@ a.icon-gplus:hover {
     width: 100%;
     height: 100%;
 
-    background-color: gray;
+}
+
+#posts {
+
+    width: 100%;
+    height: 100%;
+    display: table;
+
+    overflow: auto;
+    font-size: 0;
+}
+
+#posts .post {
+
+    width: 500px;
+    height: 100%;
+
+    color: #ffffff;
+    font-size: 12px;
+    display: -moz-inline-stack;
+    display: inline-table;
+    vertical-align: top;
+}
+
+#posts .post:nth-child(1) {
+    background-color: #0a0a0a;
+}
+
+#posts .post:nth-child(2) {
+    background-color: #101010;
+}
+
+#posts .post:nth-child(3) {
+    background-color: #121212;
+}
+
+#posts .post .image-mask {
+
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+#posts .post .image-mask img {
+
+    width: 100%;
+    height: auto;
+
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: grayscale(100%);
+
+    opacity: 0.4;
+}
+
+#posts .post .content {
+
+    max-width: 500px;
+    padding: 30px;
+
+    white-space: normal;
+}
+
+#posts .post .content p {
+
+    font-size: 16px;
+    opacity: 0.5;
 }
