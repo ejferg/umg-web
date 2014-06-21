@@ -282,11 +282,18 @@ a.icon-gplus:hover {
     color: #fff;
     padding: 0 50px 0 20px;
     font-size: 24px;
-    background: url("../img/icon-search-sm.png") rgb(19, 19, 19) no-repeat 360px;/
+    background: url("../img/icon-search-sm.png") rgb(19, 19, 19) no-repeat 360px;
 
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+#side-content .search-state-active input[name=q] {
+
+    color: #000;
+    background: url("../img/icon-search-pink-sm.png") rgb(255, 255, 255) no-repeat 360px;
+
 }
 
 #main-content {
@@ -377,11 +384,13 @@ a.icon-gplus:hover {
     width: 100%;
     text-align: right;
     font-size: 14px;
+    font-weight: 200;
 }
 
 #posts .post .content p {
 
     font-size: 16px;
+    font-weight: 200;
     opacity: 0.5;
 }
 
@@ -405,6 +414,8 @@ a.icon-gplus:hover {
 
 #posts .post-state-active .image-mask img {
 
+    -o-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
     filter: grayscale(0%);
@@ -414,5 +425,11 @@ a.icon-gplus:hover {
 
 #posts .post-state-active .content p {
 
+    font-weight: 400;
     opacity: 1.0;
+}
+
+#posts .post-state-active .content .time {
+
+    font-weight: 400;
 }
