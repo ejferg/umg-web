@@ -29,9 +29,9 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog2/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="565" column="23" selection-start="9746" selection-end="9746" vertical-scroll-proportion="0.57746476" vertical-offset="8024" max-vertical-offset="9120">
+            <state line="598" column="14" selection-start="10155" selection-end="10155" vertical-scroll-proportion="0.6350832" vertical-offset="8474" max-vertical-offset="9270">
               <folding>
-                <element signature="e#7672#7923#2" expanded="true" />
+                <element signature="e#7803#8054#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,7 +40,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="8" selection-start="3008" selection-end="3008" vertical-scroll-proportion="-14.5" vertical-offset="775" max-vertical-offset="5115">
+            <state line="98" column="4" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-13.6" vertical-offset="790" max-vertical-offset="5115">
               <folding />
             </state>
           </provider>
@@ -879,16 +879,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="8" selection-start="3008" selection-end="3008" vertical-scroll-proportion="-14.5" vertical-offset="775" max-vertical-offset="5115">
+        <state line="98" column="4" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-13.6" vertical-offset="790" max-vertical-offset="5115">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog2/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="565" column="23" selection-start="9746" selection-end="9746" vertical-scroll-proportion="0.57746476" vertical-offset="8024" max-vertical-offset="9120">
+        <state line="598" column="14" selection-start="10155" selection-end="10155" vertical-scroll-proportion="0.6350832" vertical-offset="8474" max-vertical-offset="9270">
           <folding>
-            <element signature="e#7672#7923#2" expanded="true" />
+            <element signature="e#7803#8054#2" expanded="true" />
           </folding>
         </state>
       </provider>

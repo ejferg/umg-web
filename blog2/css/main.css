@@ -193,6 +193,31 @@ a.icon-gplus-state-iconcolor:hover {
     /*overflow: hidden;*/
 }
 
+.menu-pink {
+
+    background-color: #000;
+}
+
+.menu-pink ul li:nth-child(1) a {
+
+    background-color: rgba(255, 0, 153, 0.4);
+}
+
+.menu-pink ul li:nth-child(2) a {
+
+    background-color: rgba(255, 0, 153, 0.6);
+}
+
+.menu-pink  ul li:nth-child(3) a {
+
+    background-color: rgba(255, 0,153, 0.8);
+}
+
+.menu-pink  ul li a:hover {
+
+    background-color: rgba(255, 0,153, 1.0);
+}
+
 #content-container {
 
     width: 100%;
@@ -242,17 +267,6 @@ a.icon-gplus-state-iconcolor:hover {
     vertical-align: middle;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: rgba(255, 0, 153, 0.4);
-}
-
-#side-content .menu-links ul li:nth-child(2) a {
-
-    background-color: rgba(255, 0, 153, 0.6);
-}
-
-#side-content .menu-links ul li:nth-child(3) a {
-
-    background-color: rgba(255, 0,153, 0.8);
 }
 
 #side-content .menu-social ul {
@@ -529,6 +543,8 @@ a.icon-gplus-state-iconcolor:hover {
 
     width: 100%;
     height: auto;
+
+    opacity: 0.8;
 }
 
 #post .info {
@@ -572,21 +588,15 @@ a.icon-gplus-state-iconcolor:hover {
     width: 80px;
     height: 80px;
     color: #fff;
-    background-color: #ff0099;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    background-color: rgba(255, 0, 153, 0.4);
 }
 
-#post .menu-vertical ul li:nth-child(2) a {
+#post .menu-horizontal {
 
-    background-color: rgba(255, 0, 153, 0.6);
-}
-
-#post .menu-vertical ul li:nth-child(3) a {
-
-    background-color: rgba(255, 0,153, 0.8);
+    text-align: right;
+    padding: 10px 30px;
 }
 
 #post .content {
